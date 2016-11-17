@@ -1,0 +1,11 @@
+To see what version you have:
+pip3 list
+
+To upgrade Mission Pinball Framework:
+pip3 install mpf-mc --upgrade
+
+* it should alse upgrade MPF, but if not, run:
+pip3 install mpf --upgrade
+
+To upgrade to a pre-release:
+pip3 install mpf --upgrade --pre
