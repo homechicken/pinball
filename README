@@ -1,3 +1,55 @@
+**
+** git usage **
+**
+To check out the latest repository:
+git clone https://github.com/homechicken/pinball
+
+To add a file:
+git add <file>
+
+To check the status of the local repository:
+git status
+
+To see what's changed but not yet staged:
+git diff
+
+To see the difference between what has been staged and what goes in to next commit:
+git diff --staged
+
+To commit changes to local repository:
+git commit -m 'commit notes'
+
+To commit all changed files without having to 'git add' them first:
+git commit -a -m 'commit notes'
+
+To remove a file:
+git rm file.ext
+
+To move a file:
+git mv file_from file_to
+
+To submit back to main repository:
+git push origin master
+
+To see the history of changes to a project:
+git log
+
+To unstage a file before a commit:
+git reset HEAD <file>
+
+To revert a changed file before committing:
+git checkout -- <file>
+
+To list tags for a project:
+git tag
+
+To create a tag:
+git tag -a v1.4 -m "my version 1.4"
+
+
+**
+** Mission Pinball Framework
+**
 To see what version you have:
 pip3 list
 
