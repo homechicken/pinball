@@ -18,6 +18,9 @@ fast:
 #  default_normal_debounce_open: 10ms
 #  default_normal_debounce_close: 10ms
 
+  # Turn on hardware debugging. Warning: generates large logfiles quickly!
+  debug: true
+
 
 switches:
   s_left_flipper:
