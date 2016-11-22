@@ -61,3 +61,8 @@ pip3 install mpf --upgrade
 
 To upgrade to a pre-release:
 pip3 install mpf --upgrade --pre
+
+To run MPF with hardware debugging:
+1. configure fast: section with 'debug: true'
+2. launch mpf as "mpf -v -V"
+3. watch the logfile grow and grow
