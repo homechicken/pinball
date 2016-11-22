@@ -7,16 +7,16 @@ hardware:
 fast:
   # ports are determined by `ls /dev/tty.*` and will be something like tty.usbserial-141A
   # for nano controller, use the two middle ports
-  ports: /dev/tty.usbserial-141B, /dev/tty.usbserial-141C
+  ports: /dev/ttyUSB1, /dev/ttyUSB2
   
   # Watchdog will kill Fast controller power if it can't talk to MPF
   # watchdog setting in ms, default 1000, use 0 to disable
-  watchdog: 1000
+#  watchdog: 1000
 
-  default_quick_debounce_open: 2ms
-  default_quick_debounce_close: 2ms
-  default_normal_debounce_open: 10ms
-  default_normal_debounce_close: 10ms
+#  default_quick_debounce_open: 2ms
+#  default_quick_debounce_close: 2ms
+#  default_normal_debounce_open: 10ms
+#  default_normal_debounce_close: 10ms
 
 
 switches:
@@ -27,8 +27,8 @@ switches:
     #debounce_open: 12
     #debounce_close: 6
 
-  s_right_flipper:
-    number: 
+#  s_right_flipper:
+#    number: 
 
 # Fast Power Settings
 # pulse and hold power levels map to 8-bit PWM masks as follows:
@@ -48,11 +48,11 @@ coils:
     number: 0-0
 
     # allow flipper to be held in on position
-    allow_enable: true
+#    allow_enable: true
 
     # hold power uses Fast power settings values 
     #hold_pwm_mask: 11001100
-    hold_power: 2
+#    hold_power: 2
 
     # pulse control (same as hold power, plus duration)
     #pulse_pwm_mask: 11001100
@@ -64,8 +64,8 @@ coils:
     #specifying a recycle_ms time overrides the recycle: setting
     #recycle_ms: 100
 
-  c_right_flipper:
-    number: 
+#  c_right_flipper:
+#    number: 
 
 flippers:
   left_flipper:
@@ -73,7 +73,8 @@ flippers:
     activation_switch: s_left_flipper
     # allow flipper to actuate at any time, not just when a ball is active
     enable_events: machine_reset_phase_3
-  right_flipper:
-    main_coil: c_right_flipper
-    activation_switch: s_right_flipper
+
+#  right_flipper:
+#    main_coil: c_right_flipper
+#    activation_switch: s_right_flipper
    
