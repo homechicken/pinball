@@ -56,7 +56,7 @@ switches:
     tags: start
   s_outlane_left:
     number: 0-16
-      tags: playfield_active
+    tags: playfield_active
   s_inlane_left:
     number: 0-17
     tags: playfield_active
