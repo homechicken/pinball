@@ -1,0 +1,84 @@
+3208-0
+
+Bank 1
+0-0: start
+0-1: left flipper
+0-2: left flipper limit
+0-3: right flipper
+0-4: right flipper limit
+0-5: left slingshot
+0-6: right slingshot
+0-7: auto kicker (plunger lane)
+
+Bank 2
+0-8: ball trough 1
+0-9: ball trough 2
+0-10: ball trough 3
+0-11: ball trough 4
+0-12: ball trough 5
+0-13: ball trough 6
+0-14: trough jam
+0-15: target1
+
+Bank 3
+0-16: left outlane
+0-17: left inlane
+0-18: right inlane
+0-19: right outlane
+0-20: drop1
+0-21: drop2
+0-22: drop3
+0-23: scoop weldment
+
+Bank 4
+0-24: target2
+0-25: target3
+0-26:
+0-27:
+0-28:
+0-29:
+0-30:
+0-31:
+
+
+3208-1
+
+Bank 1
+1-0: pop1
+1-1: pop2
+1-2: pop3
+1-3: spinner
+1-4:
+1-5:
+1-6:
+1-7:
+
+Bank 2
+1-8:
+1-9:
+1-10:
+1-11:
+1-12:
+1-13:
+1-14:
+1-15:
+
+Bank 3
+1-16:
+1-17:
+1-18:
+1-19:
+1-20:
+1-21:
+1-22:
+1-23:
+
+Bank 4
+1-24:
+1-25:
+1-26:
+1-27:
+1-28:
+1-29:
+1-30:
+1-31:
