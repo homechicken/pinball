@@ -1,83 +1,187 @@
-#config_version=4
+#config_version=5
+
+# Taxonomy:
+# Switches, coils, and other devices are prefaced with a unique letter,
+# followed by the device name, followed by position, then finally any modifier
 
 hardware:
   platform: fast
   driverboards: fast
 
 fast:
-  # ports are determined by `ls /dev/tty.*` and will be something like tty.usbserial-141A
-  # for nano controller, use the two middle ports
-  ports: /dev/ttyUSB1, /dev/ttyUSB2
-  
-  # Watchdog will kill Fast controller power if it can't talk to MPF
-  # watchdog setting in ms, default 1000, use 0 to disable
-#  watchdog: 1000
-
-#  default_quick_debounce_open: 2ms
-#  default_quick_debounce_close: 2ms
-#  default_normal_debounce_open: 10ms
-#  default_normal_debounce_close: 10ms
-
-  # Turn on hardware debugging. Warning: generates large logfiles quickly!
-  debug: true
-
+  ports: com4, com5
 
 switches:
-  s_left_flipper:
-    # Fast hardware switches are <board>-<switch>, starting at 0 for both
+  s_flipper_left:
+    number: 0-1
+    tags: left_flipper
+  s_flipper_left_limit:
+    number: 0-2
+  s_flipper_right:
+    number: 0-3
+    tags: right_flipper
+  s_flipper_right_limit:
+    number: 0-4
+  s_slingshot_left:
+    number: 0-5
+    tags: playfield_active
+  s_slingshot_right:
+    number: 0-6
+    tags: playfield_active
+  s_trough1:
+    number: 0-8
+    type: NC
+  s_trough2:
+    number: 0-9
+    type: NC
+  s_trough3:
+    number: 0-10
+    type: NC
+  s_trough4:
+    number: 0-11
+    type: NC
+  s_trough5:
+    number: 0-12
+    type: NC
+  s_trough6:
+    number: 0-13
+    type: NC
+  s_trough_jam:
+    number: 0-14
+    type: NC
+  s_plunger_lane:
+    number: 0-7
+  s_start:
     number: 0-0
-    # custom per-switch debounce_time: 0-255 (ms), how long new state must be set before event fires off
-    #debounce_open: 12
-    #debounce_close: 6
+    tags: start
+  s_outlane_left:
+    number: 0-16
+      tags: playfield_active
+  s_inlane_left:
+    number: 0-17
+    tags: playfield_active
+  s_inlane_right:
+    number: 0-18
+    tags: playfield_active
+  s_outlane_right:
+    number: 0-19
+    tags: playfield_active
 
-#  s_right_flipper:
-#    number: 
-
-# Fast Power Settings
-# pulse and hold power levels map to 8-bit PWM masks as follows:
-# 0: 00000000 (or 0%)
-# 1: 00000001 (or 12%)
-# 2: 10001000 (25%)
-# 3: 10010010 (37.5%)
-# 4: 10101010 (50%)
-# 5: 10111010 (62.5%)
-# 6: 11101110 (75%)
-# 7: 11111110 (87.5%)
-# 8: 11111111 (100%)
 
 coils:
-  c_left_flipper:
-    # Fast hardware coils are <board>-<coil>, starting at 0 for both
+  c_flipper_left:
     number: 0-0
+    allow_enable: true
+    #default_pulse_ms: 20
+    #default_hold_power: 0.125
+  c_flipper_right:
+    number: 0-1
+    allow_enable: true
+    #default_pulse_ms: 20
+    #default_hold_power: 0.125
+  c_slingshot_left:
+    number: 0-4
+    #default_pulse_ms: 20
+  c_slingshot_right:
+    number: 0-5
+    #default_pulse_ms: 20
+  c_trough_eject:
+    number: 0-2
+    #default_pulse_ms: 20
+  c_autokicker:
+    number: 0-3
+    #default_pulse_ms: 20
 
-    # allow flipper to be held in on position
-#    allow_enable: true
-
-    # hold power uses Fast power settings values 
-    #hold_pwm_mask: 11001100
-#    hold_power: 2
-
-    # pulse control (same as hold power, plus duration)
-    #pulse_pwm_mask: 11001100
-    pulse_power: 4
-    pulse_ms: 30
-
-    #recycle defines a cool-down equal to twice the pulse_ms value by default
-    #recycle: true
-    #specifying a recycle_ms time overrides the recycle: setting
-    #recycle_ms: 100
-
-#  c_right_flipper:
-#    number: 
+autofire_coils:
+  left_slingshot:
+    coil: c_slingshot_left
+    switch: s_slingshot_left
+  right_slingshot:
+    coil: c_slingshot_right
+    switch: s_slingshot_right
 
 flippers:
   left_flipper:
-    main_coil: c_left_flipper
-    activation_switch: s_left_flipper
-    # allow flipper to actuate at any time, not just when a ball is active
+    main_coil: c_flipper_left
+    activation_switch: s_flipper_left
+    enable_events: machine_reset_phase_3
+  right_flipper:
+    main_coil: c_flipper_right
+    activation_switch: s_flipper_right
     enable_events: machine_reset_phase_3
 
-#  right_flipper:
-#    main_coil: c_right_flipper
-#    activation_switch: s_right_flipper
-   
+ball_devices:
+  bd_trough:
+    ball_switches: s_trough1, s_trough2, s_trough3, s_trough4, s_trough5, s_trough6, s_trough_jam
+    eject_coil: c_trough_eject
+    tags: trough, home, drain
+    jam_switch: s_trough_jam
+    eject_coil_jam_pulse: 15ms
+    eject_targets: bd_plunger
+  bd_plunger:
+    ball_switches: s_plunger_lane
+    eject_coil: c_autokicker
+    mechanical_eject: true
+    eject_timeouts: 3s
+
+
+playfields:
+  playfield:
+    tags: default
+    default_source_device: bd_plunger
+
+displays:
+  window:
+    width: 800
+    height: 600
+
+slides:
+  welcome_slide:
+    widgets:
+      - type: text
+        text: ZIMBALL!
+        font_size: 50
+        color: purple
+      - type: rectangle
+        width: 240
+        height: 60
+  attract_started:
+    widgets:
+      - type: text
+        text: ATTRACT MODE
+
+slide_player:
+  init_done: welcome_slide
+  mode_attract_started: attract_started
+  ball_started:
+    widgets:
+      type: text
+      text: PLAYER (number) BALL (ball)
+
+keyboard:
+  z:
+    switch: s_flipper_left
+  "?":
+    switch: s_flipper_right
+  s:
+    switch: s_start
+  1:
+    switch: s_trough1
+  2:
+    switch: s_trough2
+  3:
+    switch: s_trough3
+  4:
+    switch: s_trough4
+  5:
+    switch: s_trough5
+  6:
+    switch: s_trough6
+  q:
+    switch: s_outlane_left
+  w:
+    switch: s_inlane_left
+  e:
+    switch: s_inlane_right
+  r:
+    switch: s_outlane_right
