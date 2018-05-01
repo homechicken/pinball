@@ -153,10 +153,9 @@ slides:
 slide_player:
   init_done: welcome_slide
   mode_attract_started: attract_started
-  ball_started:
-    widgets:
-      type: text
-      text: PLAYER (number) BALL (ball)
+
+modes:
+  - base
 
 keyboard:
   z:
