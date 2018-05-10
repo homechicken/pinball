@@ -50,7 +50,7 @@ switches:
     number: 0-14
     type: NC
   s_plunger_lane:
-    number: 0-7
+    number: 0-15
   s_start:
     number: 0-0
     tags: start
@@ -161,7 +161,7 @@ slide_player:
 keyboard:
   z:
     switch: s_flipper_left
-  "?":
+  "/":
     switch: s_flipper_right
   s:
     switch: s_start

@@ -8,7 +8,7 @@ Bank 1
 0-4: right flipper limit
 0-5: left slingshot
 0-6: right slingshot
-0-7: auto kicker (plunger lane)
+0-7:
 
 Bank 2
 0-8: ball trough 1
@@ -18,7 +18,7 @@ Bank 2
 0-12: ball trough 5
 0-13: ball trough 6
 0-14: trough jam
-0-15: target1
+0-15: auto kicker (plunger lane)
 
 Bank 3
 0-16: left outlane
@@ -31,9 +31,9 @@ Bank 3
 0-23: scoop weldment
 
 Bank 4
-0-24: target2
-0-25: target3
-0-26:
+0-24: target1
+0-25: target2
+0-26: target3
 0-27:
 0-28:
 0-29:
