@@ -1,0 +1,14 @@
+drop_targets:
+  drop1:
+    switch: s_drop1
+  drop2:
+    switch: s_drop2
+  drop3:
+    switch: s_drop3
+
+drop_target_banks:
+  character_bank:
+    drop_targets: drop1, drop2, drop3
+    reset_coils: c_chardrop_reset
+    reset_events: ball_starting, machine_reset_phase_3
+    reset_on_complete: 5s
