@@ -13,27 +13,46 @@ variable_player:
   s_pop3_active:
     score: 100
 
-light_player:
-  s_pop1_active:
-    l_pop1:
-      color: d8bfd8
-  s_pop2_active:
-    l_pop2:
-      color: d8bfd8
-  s_pop3_active:
-    l_pop3:
-      color: d8bfd8
-
 counters:
   pop1_level1:
     count_events: s_pop1_active
+    starting_count: 0
     count_complete_value: 7
+    direction: up
   pop2_level1:
     count_events: s_pop2_active
+    starting_count: 0
     count_complete_value: 7
+    direction: up
   pop3_level1:
     count_events: s_pop3_active
+    starting_count: 0
     count_complete_value: 7
+    direction: up
+
+show_player:
+  mode_pop_leve1_started:
+    pop_upgrade:
+      pop: pop1
+    pop_upgrade:
+      pop: pop2
+    pop_upgrade:
+      pop: pop3
+  logicblock_pop1_level1_updated:
+    pop_upgrade:
+      start_step: device.counters.pop1_level1["value"] + 1
+      pop: pop1
+      color: d8bfd8
+  logicblock_pop2_level1_updated:
+    pop_upgrade:
+      start_step: device.counters.pop2_level1["value"] + 1
+      pop: pop2
+      color: d8bfd8
+  logicblock_pop3_level1_updated:
+    pop_upgrade:
+      start_step: device.counters.pop3_level1["value"] + 1
+      pop: pop3
+      color: d8bfd8
 
 accruals:
   pop_level1:

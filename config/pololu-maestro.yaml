@@ -1,0 +1,26 @@
+hardware:
+  servo_controllers: pololu_maestro
+
+pololu_maestro:
+  port: com5
+
+#servo numbering is 0-based
+servos:
+  servo1:
+    servo_min: 0.2
+    servo_max: 0.8
+    positions:
+      0.1: servo1_down
+      0.9: servo1_up
+    reset_position: 0.5
+    reset_events: reset_servo1
+    speed_limit: 0.5
+    acceleration_limit: 0.5
+    number: 0
+  servo2:
+    positions:
+      0.2: servo2_left
+      1.0: servo2_home
+    reset_position: 1.0
+    reset_events: reset_servo2
+    number: 1

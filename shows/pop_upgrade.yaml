@@ -1,0 +1,74 @@
+#show_version=5
+# steps to control the display of the pop bumper upgrade lights
+- duration: -1
+  lights:
+    l_(pop)_0: off
+    l_(pop)_1: off
+    l_(pop)_2: off
+    l_(pop)_3: off
+    l_(pop)_4: off
+    l_(pop)_5: off
+    l_(pop)_6: off
+- duration: -1
+  lights:
+    l_(pop)_0: (color)
+    l_(pop)_1: off
+    l_(pop)_2: off
+    l_(pop)_3: off
+    l_(pop)_4: off
+    l_(pop)_5: off
+    l_(pop)_6: off
+- duration: -1
+  lights:
+    l_(pop)_0: (color)
+    l_(pop)_1: (color)
+    l_(pop)_2: off
+    l_(pop)_3: off
+    l_(pop)_4: off
+    l_(pop)_5: off
+    l_(pop)_6: off
+- duration: -1
+  lights:
+    l_(pop)_0: (color)
+    l_(pop)_1: (color)
+    l_(pop)_2: (color)
+    l_(pop)_3: off
+    l_(pop)_4: off
+    l_(pop)_5: off
+    l_(pop)_6: off
+- duration: -1
+  lights:
+    l_(pop)_0: (color)
+    l_(pop)_1: (color)
+    l_(pop)_2: (color)
+    l_(pop)_3: (color)
+    l_(pop)_4: off
+    l_(pop)_5: off
+    l_(pop)_6: off
+- duration: -1
+  lights:
+    l_(pop)_0: (color)
+    l_(pop)_1: (color)
+    l_(pop)_2: (color)
+    l_(pop)_3: (color)
+    l_(pop)_4: (color)
+    l_(pop)_5: off
+    l_(pop)_6: off
+- duration: -1
+  lights:
+    l_(pop)_0: (color)
+    l_(pop)_1: (color)
+    l_(pop)_2: (color)
+    l_(pop)_3: (color)
+    l_(pop)_4: (color)
+    l_(pop)_5: (color)
+    l_(pop)_6: off
+- duration: -1
+  lights:
+    l_(pop)_0: (color)
+    l_(pop)_1: (color)
+    l_(pop)_2: (color)
+    l_(pop)_3: (color)
+    l_(pop)_4: (color)
+    l_(pop)_5: (color)
+    l_(pop)_6: (color)
