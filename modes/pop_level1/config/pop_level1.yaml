@@ -38,7 +38,7 @@ counters:
 accruals:
   pop_level1:
     events:
-      - pop1_level1
-      - pop2_level1
-      - pop3_level1
+      - logicblock_pop1_level1_complete
+      - logicblock_pop2_level1_complete
+      - logicblock_pop3_level1_complete
     events_when_complete: pop_level1_done
