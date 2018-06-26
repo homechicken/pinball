@@ -1,0 +1,44 @@
+#config_version=5
+
+mode:
+  start_events: ball_starting
+  stop_events: pop_level1_done
+  priority: 1000
+
+variable_player:
+  s_pop1_active:
+    score: 100
+  s_pop2_active:
+    score: 100
+  s_pop3_active:
+    score: 100
+
+light_player:
+  s_pop1_active:
+    l_pop1:
+      color: d8bfd8
+  s_pop2_active:
+    l_pop2:
+      color: d8bfd8
+  s_pop3_active:
+    l_pop3:
+      color: d8bfd8
+
+counters:
+  pop1_level1:
+    count_events: s_pop1_active
+    count_complete_value: 7
+  pop2_level1:
+    count_events: s_pop2_active
+    count_complete_value: 7
+  pop3_level1:
+    count_events: s_pop3_active
+    count_complete_value: 7
+
+accruals:
+  pop_level1:
+    events:
+      - pop1_level1
+      - pop2_level1
+      - pop3_level1
+    events_when_complete: pop_level1_done

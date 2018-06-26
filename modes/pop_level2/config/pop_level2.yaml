@@ -1,0 +1,47 @@
+#config_version=5
+
+mode:
+  start_events: pop_level1_done
+  #stop_events: pop_level2_done
+  priority: 1001
+
+variable_player:
+  s_pop1_active:
+    score: 200
+  s_pop2_active:
+    score: 200
+  s_pop3_active:
+    score: 200
+
+light_player:
+  s_pop1_active:
+    l_pop1:
+      color: 800080
+      fade: 150ms
+  s_pop2_active:
+    l_pop2:
+      color: 800080
+      fade: 150ms
+  s_pop3_active:
+    l_pop3:
+      color: 800080
+      fade: 150ms
+
+counters:
+  pop1_level2:
+    count_events: s_pop1_active
+    count_complete_value: 7
+  pop2_level2:
+    count_events: s_pop2_active
+    count_complete_value: 7
+  pop3_level2:
+    count_events: s_pop3_active
+    count_complete_value: 7
+
+accruals:
+  pop_level1:
+    events:
+      - pop1_level2
+      - pop2_level2
+      - pop3_level2
+    events_when_complete: pop_level2_done

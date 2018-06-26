@@ -1,0 +1,82 @@
+# Fast LED channel numbers are from 0-3, LEDs are 0-63
+lights:
+  l_led0:
+    number: 0-0
+    type: rgb
+  l_ramp_right:
+    number: 2-28
+    type: grb
+
+  l_pop1_0:
+    number:
+    tags: l_pop1, l_pops
+  l_pop1_1:
+    number:
+    tags: l_pop1, l_pops
+  l_pop1_2:
+    number:
+    tags: l_pop1, l_pops
+  l_pop1_3:
+    number:
+    tags: l_pop1, l_pops
+  l_pop1_4:
+    number:
+    tags: l_pop1, l_pops
+  l_pop1_5:
+    number:
+    tags: l_pop1, l_pops
+  l_pop1_6:
+    number:
+    tags: l_pop1, l_pops
+
+  l_pop2_0:
+    number:
+    tags: l_pop2, l_pops
+  l_pop2_1:
+    number:
+    tags: l_pop2, l_pops
+  l_pop2_2:
+    number:
+    tags: l_pop2, l_pops
+  l_pop2_3:
+    number:
+    tags: l_pop2, l_pops
+  l_pop2_4:
+    number:
+    tags: l_pop2, l_pops
+  l_pop2_5:
+    number:
+    tags: l_pop2, l_pops
+  l_pop2_6:
+    number:
+    tags: l_pop2, l_pops
+
+  l_pop3_0:
+    number:
+    tags: l_pop3, l_pops
+  l_pop3_1:
+    number:
+    tags: l_pop3, l_pops
+  l_pop3_2:
+    number:
+    tags: l_pop3, l_pops
+  l_pop3_3:
+    number:
+    tags: l_pop3, l_pops
+  l_pop3_4:
+    number:
+    tags: l_pop3, l_pops
+  l_pop3_5:
+    number:
+    tags: l_pop3, l_pops
+  l_pop3_6:
+    number:
+    tags: l_pop3, l_pops
+
+# to combat LED delay/corrupt color messages:
+mpf:
+  default_light_hw_update_hz: 50
+
+fast:
+  rgb_buffer: 3
+  #hardware_led_fade_time: 0
