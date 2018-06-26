@@ -2,7 +2,7 @@
 
 mode:
   start_events: ball_starting
-  stop_events: pop_level1_done
+  stop_events: pop_level1_done, ball_ended
   priority: 1000
 
 variable_player:
@@ -31,7 +31,7 @@ counters:
     direction: up
 
 show_player:
-  mode_pop_leve1_started:
+  mode_pop_level1_started:
     pop_upgrade:
       pop: pop1
     pop_upgrade:
