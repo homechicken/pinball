@@ -46,6 +46,23 @@ git tag
 To create a tag:
 git tag -a v1.4 -m "my version 1.4"
 
+Branching:
+git checkout -b branchname
+(or `git branch branchname` and then `git checkout branchname`)
+
+To switch to another branch
+git checkout master
+
+To delete a branch:
+git branch -d branchname
+
+To merge back to master:
+git checkout master
+git merge branchname
+git branch -d branchname
+
+To resolve merge conflicts:
+git mergetool
 
 **
 ** Mission Pinball Framework
