@@ -1,3 +1,5 @@
+#config_version=5
+
 hardware:
   servo_controllers: pololu_maestro
 

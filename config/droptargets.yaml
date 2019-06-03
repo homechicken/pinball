@@ -1,3 +1,5 @@
+#config_version=5
+
 drop_targets:
   drop1:
     switch: s_drop1
