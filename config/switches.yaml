@@ -1,0 +1,80 @@
+#config_version=5
+
+# Taxonomy:
+# Switches, coils, and other devices are prefaced with a unique letter or combination of letters,,
+# followed by the device name, followed by position, then finally any modifier.
+# Essentially they go from least to most specific
+
+switches:
+  s_flipper_left:
+    number: 0-1
+    tags: left_flipper
+    label: "Left Flipper"
+  s_flipper_left_limit:
+    number: 0-2
+  s_flipper_right:
+    number: 0-3
+    tags: right_flipper
+    label: "Right Flipper"
+  s_flipper_right_limit:
+    number: 0-4
+  s_slingshot_left:
+    number: 0-5
+    tags: playfield_active
+    label: "Left Slingshot"
+  s_slingshot_right:
+    number: 0-6
+    tags: playfield_active
+    label: "Right Slingshot"
+  s_trough1:
+    number: 0-8
+    type: NC
+    label: "Trough 1"
+  s_trough2:
+    number: 0-9
+    type: NC
+    label: "Trough 2"
+  s_trough3:
+    number: 0-10
+    type: NC
+    label: "Trough 3"
+  s_trough4:
+    number: 0-11
+    type: NC
+    label: "Trough 4"
+  s_trough5:
+    number: 0-12
+    type: NC
+    label: "Trough 5"
+  s_trough6:
+    number: 0-13
+    type: NC
+    label: "Trough 6"
+  s_trough_jam:
+    number: 0-14
+    type: NC
+    label: "Trough Jam"
+  s_plunger_lane:
+    number: 0-15
+    label: "Plunger Lane"
+  s_start:
+    number: 0-0
+    tags: start
+    label: "Start"
+  s_outlane_left:
+    number: 0-16
+    tags: playfield_active
+    label: "Left Outlane"
+  s_inlane_left:
+    number: 0-17
+    tags: playfield_active
+    label: "Left Inlane"
+  s_inlane_right:
+    number: 0-18
+    tags: playfield_active
+    label: "Right Inlane"
+  s_outlane_right:
+    number: 0-19
+    tags: playfield_active
+    label: "Right Outlane"
+

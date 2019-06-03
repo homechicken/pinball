@@ -1,0 +1,37 @@
+#config_version=5
+
+# Taxonomy:
+# Switches, coils, and other devices are prefaced with a unique letter or combination of letters,,
+# followed by the device name, followed by position, then finally any modifier.
+# Essentially they go from least to most specific
+
+coils:
+  c_flipper_left:
+    number: 0-0
+    allow_enable: true
+    #default_pulse_ms: 20
+    #default_hold_power: 0.125
+    label: "Left Flipper"
+  c_flipper_right:
+    number: 0-1
+    allow_enable: true
+    #default_pulse_ms: 20
+    #default_hold_power: 0.125
+    label: "Right Flipper"
+  c_slingshot_left:
+    number: 0-4
+    #default_pulse_ms: 20
+    label: "Left Slingshot"
+  c_slingshot_right:
+    number: 0-5
+    #default_pulse_ms: 20
+    label: "Right Slingshot"
+  c_trough_eject:
+    number: 0-2
+    #default_pulse_ms: 20
+    label: "Ball Trough Eject"
+  c_autokicker:
+    number: 0-3
+    #default_pulse_ms: 20
+    label: "Auto Kicker"
+

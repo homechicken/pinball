@@ -1,0 +1,24 @@
+#config_version=5
+
+slides:
+  welcome_slide:
+    widgets:
+      - type: text
+        text: ZIMBALL!
+        font_size: 50
+        color: purple
+      - type: rectangle
+        width: 240
+        height: 60
+  attract_started:
+    widgets:
+      - type: text
+        text: ATTRACT MODE
+
+slide_player:
+  init_done:
+    welcome_slide:
+      target: dmd
+  mode_attract_started:
+    attract_started:
+      target: dmd

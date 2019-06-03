@@ -1,0 +1,15 @@
+#config_version=5
+
+switches:
+  s_popbumper1:
+    number: 7
+
+coils:
+  c_popbumper1:
+  number: 4
+  default_pulse_ms: 23
+
+autofire_coils:
+  ac_popbumper1:
+  coil: c_popbumper1
+  switch: s_popbumper1

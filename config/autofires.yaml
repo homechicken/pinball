@@ -1,0 +1,10 @@
+#config_version=5
+
+autofire_coils:
+  left_slingshot:
+    coil: c_slingshot_left
+    switch: s_slingshot_left
+  right_slingshot:
+    coil: c_slingshot_right
+    switch: s_slingshot_right
+

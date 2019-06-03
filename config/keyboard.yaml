@@ -1,0 +1,29 @@
+#config_version=5
+
+keyboard:
+  z:
+    switch: s_flipper_left
+  "/":
+    switch: s_flipper_right
+  s:
+    switch: s_start
+  1:
+    switch: s_trough1
+  2:
+    switch: s_trough2
+  3:
+    switch: s_trough3
+  4:
+    switch: s_trough4
+  5:
+    switch: s_trough5
+  6:
+    switch: s_trough6
+  q:
+    switch: s_outlane_left
+  w:
+    switch: s_inlane_left
+  e:
+    switch: s_inlane_right
+  r:
+    switch: s_outlane_right
