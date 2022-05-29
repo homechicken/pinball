@@ -34,7 +34,7 @@
 
 #include <Adafruit_GFX.h>    // Core graphics library
 #include <Adafruit_ST7735.h> // Hardware-specific library for ST7735
-#include <Adafruit_ST7789.h> // Hardware-specific library for ST7789
+//#include <Adafruit_ST7789.h> // Hardware-specific library for ST7789
 #include <SPI.h>
 
 #if defined(ARDUINO_FEATHER_ESP32) // Feather Huzzah32
@@ -50,9 +50,9 @@
 #else
   // For the breakout board, you can use any 2 or 3 pins.
   // These pins will also work for the 1.8" TFT shield.
-  #define TFT_CS        10
+  #define TFT_CS        8
   #define TFT_RST        -1 // Or set to -1 and connect to Arduino RESET pin
-  #define TFT_DC         8
+  #define TFT_DC         7
 #endif
 
 // OPTION 1 (recommended) is to use the HARDWARE SPI pins, which are unique
@@ -62,10 +62,7 @@
 
 // For 1.44" and 1.8" TFT with ST7735 use:
 Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);
-Adafruit_ST7735 tft2 = Adafruit_ST7735(7, TFT_DC, TFT_RST);
-
-// For 1.14", 1.3", 1.54", 1.69", and 2.0" TFT with ST7789:
-//Adafruit_ST7789 tft = Adafruit_ST7789(TFT_CS, TFT_DC, TFT_RST);
+//Adafruit_ST7735 tft2 = Adafruit_ST7735(7, TFT_DC, TFT_RST);
 
 
 // OPTION 2 lets you interface the display using ANY TWO or THREE PINS,
@@ -91,28 +88,9 @@ void setup(void) {
 
   // OR use this initializer if using a 1.8" TFT screen with offset such as WaveShare:
    tft.initR(INITR_GREENTAB);      // Init ST7735S chip, green tab
-   tft2.initR(INITR_GREENTAB);
+ //  tft2.initR(INITR_GREENTAB);
 
-  // OR use this initializer (uncomment) if using a 1.44" TFT:
-  //tft.initR(INITR_144GREENTAB); // Init ST7735R chip, green tab
-
-  // OR use this initializer (uncomment) if using a 0.96" 160x80 TFT:
-  //tft.initR(INITR_MINI160x80);  // Init ST7735S mini display
-
-  // OR use this initializer (uncomment) if using a 1.3" or 1.54" 240x240 TFT:
-  //tft.init(240, 240);           // Init ST7789 240x240
-
-  // OR use this initializer (uncomment) if using a 1.69" 280x240 TFT:
-  //tft.init(240, 280);           // Init ST7789 280x240
-
-  // OR use this initializer (uncomment) if using a 2.0" 320x240 TFT:
-  //tft.init(240, 320);           // Init ST7789 320x240
-
-  // OR use this initializer (uncomment) if using a 1.14" 240x135 TFT:
-  //tft.init(135, 240);           // Init ST7789 240x135
-  
-  // OR use this initializer (uncomment) if using a 1.47" 172x320 TFT:
-  //tft.init(172, 320);           // Init ST7789 172x320
+ 
 
   // SPI speed defaults to SPI_DEFAULT_FREQ defined in the library, you can override it here
   // Note that speed allowable depends on chip and quality of wiring, if you go too fast, you
@@ -123,7 +101,7 @@ void setup(void) {
 
   uint16_t time = millis();
   tft.fillScreen(ST77XX_BLACK);
-  tft2.fillScreen(ST77XX_BLACK);
+  //tft2.fillScreen(ST77XX_BLACK);
   time = millis() - time;
 
   Serial.println(time, DEC);
@@ -131,7 +109,7 @@ void setup(void) {
 
   // large block of text
   tft.fillScreen(ST77XX_BLACK);
-  tft2.fillScreen(ST77XX_BLACK);
+  //tft2.fillScreen(ST77XX_BLACK);
   testdrawtext("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur adipiscing ante sed nibh tincidunt feugiat. Maecenas enim massa, fringilla sed malesuada et, malesuada sit amet turpis. Sed porttitor neque ut ante pretium vitae malesuada nunc bibendum. Nullam aliquet ultrices massa eu hendrerit. Ut sed nisi lorem. In vestibulum purus a tortor imperdiet posuere. ", ST77XX_WHITE);
   delay(1000);
 /*
@@ -178,10 +156,10 @@ void setup(void) {
 
 void loop() {
   tft.invertDisplay(true);
-  tft2.invertDisplay(true);
+//  tft2.invertDisplay(true);
   delay(500);
   tft.invertDisplay(false);
-  tft2.invertDisplay(false);
+//  tft2.invertDisplay(false);
   delay(500);
 }
 
@@ -233,10 +211,10 @@ void testdrawtext(char *text, uint16_t color) {
   tft.setTextWrap(true);
   tft.print(text);
 
-  tft2.setCursor(0, 0);
-  tft2.setTextColor(color);
-  tft2.setTextWrap(true);
-  tft2.print(text);
+//  tft2.setCursor(0, 0);
+//  tft2.setTextColor(color);
+//  tft2.setTextWrap(true);
+//  tft2.print(text);
 }
 
 void testfastlines(uint16_t color1, uint16_t color2) {
