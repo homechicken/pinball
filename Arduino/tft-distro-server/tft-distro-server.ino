@@ -109,10 +109,7 @@ void setMode(const int mode) {
   switch(mode) {
     case MODE_ATTRACT:
       Serial.println("switch MODE_ATTRACT");
-      digitalWrite(MODEPIN_0, LOW);
-      digitalWrite(MODEPIN_1, LOW);
-      digitalWrite(MODEPIN_2, LOW);
-      digitalWrite(MODEPIN_3, LOW);
+      writePins(B00000000);
       break;
     case MODE_1:
       Serial.println("switch MODE_1");
@@ -224,6 +221,32 @@ void setMode(const int mode) {
      Serial.println(F("Mode not supported!!"));
   }
   currentMode = mode;
+}
+
+void writePins(byte b) {
+  if(b & B00000001) {
+    digitalWrite(MODEPIN_0, HIGH);
+  } else {
+    digitalWrite(MODEPIN_0, LOW);
+  }
+
+  if(b & B00000010) {
+    digitalWrite(MODEPIN_1, HIGH);
+  } else {
+    digitalWrite(MODEPIN_1, LOW);
+  }
+
+  if(b & B00000100) {
+    digitalWrite(MODEPIN_2, HIGH);
+  } else {
+    digitalWrite(MODEPIN_2, LOW);
+  }
+
+  if(b & B00001000) {
+    digitalWrite(MODEPIN_3, HIGH);
+  } else {
+    digitalWrite(MODEPIN_3, LOW);
+  }
 }
 
 void setHit(const int p) {
