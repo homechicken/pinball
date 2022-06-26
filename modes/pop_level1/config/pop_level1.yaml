@@ -17,17 +17,17 @@ counters:
   pop1_level1:
     count_events: s_pop1_active
     starting_count: 0
-    count_complete_value: 7
+    count_complete_value: 12
     direction: up
   pop2_level1:
     count_events: s_pop2_active
     starting_count: 0
-    count_complete_value: 7
+    count_complete_value: 12
     direction: up
   pop3_level1:
     count_events: s_pop3_active
     starting_count: 0
-    count_complete_value: 7
+    count_complete_value: 12
     direction: up
 
 show_player:

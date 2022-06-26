@@ -14,7 +14,6 @@ config:
   - autofires.yaml
   - ball_devices.yaml
   - playfields.yaml
-  - popbumpers.yaml
   - droptargets.yaml
   - displays.yaml
   - lights.yaml

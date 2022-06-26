@@ -14,6 +14,10 @@ slides:
     widgets:
       - type: text
         text: ATTRACT MODE
+  ball_started:
+    widgets:
+      type: text
+      text: PLAYER (number) BALL (ball)
 
 slide_player:
   init_done:
@@ -21,4 +25,7 @@ slide_player:
       target: dmd
   mode_attract_started:
     attract_started:
+      target: dmd
+  ball_started:
+    widgets:
       target: dmd

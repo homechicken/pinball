@@ -7,4 +7,6 @@ autofire_coils:
   right_slingshot:
     coil: c_slingshot_right
     switch: s_slingshot_right
-
+  ac_pop_1:
+    coil: c_pop_1
+    switch: s_pop_1

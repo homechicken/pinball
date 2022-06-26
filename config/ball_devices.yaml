@@ -4,12 +4,19 @@ ball_devices:
   bd_trough:
     ball_switches: s_trough1, s_trough2, s_trough3, s_trough4, s_trough5, s_trough6, s_trough_jam
     eject_coil: c_trough_eject
+    entrance_count_delay: 300ms
     tags: trough, home, drain
     jam_switch: s_trough_jam
     eject_coil_jam_pulse: 15ms
     eject_targets: bd_plunger
+    debug: true
   bd_plunger:
     ball_switches: s_plunger_lane
+    entrance_count_delay: 300ms
     eject_coil: c_autokicker
     mechanical_eject: true
     eject_timeouts: 3s
+  bd_vuk_1:
+    ball_switches: s_vuk_1
+    eject_coil: c_vuk_1
+    eject_timeouts: 2s

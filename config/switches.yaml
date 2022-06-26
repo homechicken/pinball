@@ -77,4 +77,15 @@ switches:
     number: 0-19
     tags: playfield_active
     label: "Right Outlane"
-
+  s_pop_1:
+    number: 
+    tags: playfield_active
+    label: "Popbumper 1"
+  s_pop_2:
+    number:
+    tags: playfield_active
+    label: "Popbumper 2"
+  s_pop_3:
+    number:
+    tags: playfield_active
+    label: "Popbumper 3"

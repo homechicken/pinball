@@ -1,20 +1,26 @@
 3208-0
 
 0: left flipper
-1: right flipper
-2: ball trough eject
-3: auto kicker ball launch
-4: left slingshot
-5: right slingshot
-6: scoop weldment
-7: drop target reset
+1: left flipper hold
+2: right flipper
+3: right flipper hold
+4: ball trough eject
+5: auto kicker ball launch
+6: left slingshot
+7: right slingshot
 
 3208-1
-0: pop1
-1: pop2
-2: pop3
+0: 
+1: 
+2: 
 3: 
 4:
 5:
 6:
 7:
+
+Coil devices:
+pop bumbers
+drop target
+disappearing post
+scoop weldment
