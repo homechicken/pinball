@@ -35,9 +35,9 @@ $EXTMIN
  10
 0.0
  20
--0.0000000000000001
+-0.0000000000000007
  30
-0.0
+-0.77
   9
 $EXTMAX
  10
@@ -45,7 +45,7 @@ $EXTMAX
  20
 10.25
  30
-0.0
+2.0
   9
 $LIMMIN
  10
@@ -493,19 +493,19 @@ $SKPOLY
   9
 $TDCREATE
  40
-2459955.420181354
+2460368.677731829
   9
 $TDUCREATE
  40
-2459955.753514688
+2460369.011065162
   9
 $TDUPDATE
  40
-2459955.420181898
+2460368.677732373
   9
 $TDUUPDATE
  40
-2459955.753515231
+2460369.011065706
   9
 $TDINDWG
  40
@@ -553,7 +553,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-271
+6CF
   9
 $SURFTAB1
  70
@@ -933,7 +933,7 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{4504a8b6-b8fe-4117-a9ab-96f82eb95f48}
+{5deae34c-f0e2-426b-9067-e07f9ca2f25c}
   9
 $VERSIONGUID
   2
@@ -1077,7 +1077,7 @@ $TILEMODELIGHTSYNCH
   9
 $CMATERIAL
 347
-1DF
+60E
   9
 $SOLIDHIST
 280
@@ -1271,7 +1271,7 @@ TABLE
   2
 VPORT
   5
-1A4
+5D3
 330
 0
 100
@@ -1281,9 +1281,9 @@ AcDbSymbolTable
   0
 VPORT
   5
-1C4
+5F3
 330
-1A4
+5D3
 100
 AcDbSymbolTableRecord
 100
@@ -1301,9 +1301,9 @@ AcDbViewportTableRecord
  21
 1.0
  12
-2.603155131285352
+13.65421442874277
  22
-8.0748928315937
+6.855140282630233
  13
 0.0
  23
@@ -1329,9 +1329,9 @@ AcDbViewportTableRecord
  37
 0.0
  40
-21.56590914027148
+23.97848022109819
  41
-1.631168831168831
+1.39490861618799
  42
 50.0
  43
@@ -1385,7 +1385,7 @@ AcDbViewportTableRecord
 146
 0.0
 348
-1CA
+5F9
  60
      3
  61
@@ -1401,7 +1401,7 @@ AcDbViewportTableRecord
  63
    250
 361
-1F8
+627
   0
 ENDTAB
   0
@@ -1409,7 +1409,7 @@ TABLE
   2
 LTYPE
   5
-1A1
+5D0
 330
 0
 100
@@ -1419,9 +1419,9 @@ AcDbSymbolTable
   0
 LTYPE
   5
-1AF
+5DE
 330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
@@ -1441,9 +1441,9 @@ ByBlock
   0
 LTYPE
   5
-1B0
+5DF
 330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
@@ -1463,9 +1463,9 @@ ByLayer
   0
 LTYPE
   5
-1B1
+5E0
 330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
@@ -1485,223 +1485,437 @@ Solid line
   0
 LTYPE
   5
-232
+67C
 330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
 AcDbLinetypeTableRecord
   2
-ACAD_ISO07W100
+HIDDEN2
  70
      0
   3
-ISO dot . . . . . . . . . . . . . . . . . . . . 
+Hidden (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
  72
     65
  73
      2
  40
-3.0
+0.1875
  49
-0.0
+0.125
  74
      0
  49
--3.0
+-0.0625
  74
      0
   0
 LTYPE
   5
-233
+67E
 330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
 AcDbLinetypeTableRecord
   2
-ACAD_ISO06W100
+FENCELINE2
  70
      0
   3
-ISO long-dash triple-dot ____ ... ____ ... ____
+Fenceline square ----[]-----[]----[]-----[]----[]---
+ 72
+    65
+ 73
+     4
+ 40
+1.45
+ 49
+0.25
+ 74
+     0
+ 49
+-0.1
+ 74
+     2
+ 75
+     0
+340
+67D
+ 46
+0.1
+ 50
+0.0
+ 44
+-0.1
+ 45
+0.0
+  9
+BOX
+ 49
+-0.1
+ 74
+     0
+ 49
+1.0
+ 74
+     0
+  0
+LTYPE
+  5
+680
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+GAS_LINE
+ 70
+     0
+  3
+Gas line ----GAS----GAS----GAS----GAS----GAS----GAS--
+ 72
+    65
+ 73
+     3
+ 40
+0.95
+ 49
+0.5
+ 74
+     0
+ 49
+-0.2
+ 74
+     2
+ 75
+     0
+340
+67F
+ 46
+0.1
+ 50
+0.0
+ 44
+-0.1
+ 45
+-0.05
+  9
+GAS
+ 49
+-0.25
+ 74
+     0
+  0
+LTYPE
+  5
+682
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DRAINAGE2
+ 70
+     0
+  3
+Drainage reversed ----<----<----<----
+ 72
+    65
+ 73
+     2
+ 40
+0.4
+ 49
+0.2
+ 74
+     2
+ 75
+     0
+340
+681
+ 46
+0.2
+ 50
+0.0
+ 44
+0.0
+ 45
+0.0
+  9
+RIGHT_ARROW
+ 49
+0.2
+ 74
+     0
+  0
+LTYPE
+  5
+683
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+FENCELINE1
+ 70
+     0
+  3
+Fenceline circle ----0-----0----0-----0----0-----0--
+ 72
+    65
+ 73
+     4
+ 40
+1.45
+ 49
+0.25
+ 74
+     0
+ 49
+-0.1
+ 74
+     2
+ 75
+     0
+340
+67D
+ 46
+0.1
+ 50
+0.0
+ 44
+-0.1
+ 45
+0.0
+  9
+CIRC1
+ 49
+-0.1
+ 74
+     0
+ 49
+1.0
+ 74
+     0
+  0
+LTYPE
+  5
+684
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DOTX2
+ 70
+     0
+  3
+Dot (2x) .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ 72
+    65
+ 73
+     2
+ 40
+0.5
+ 49
+0.0
+ 74
+     0
+ 49
+-0.5
+ 74
+     0
+  0
+LTYPE
+  5
+685
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DRAINAGE
+ 70
+     0
+  3
+Drainage ---->---->---->----
+ 72
+    65
+ 73
+     2
+ 40
+0.4
+ 49
+0.2
+ 74
+     2
+ 75
+     0
+340
+681
+ 46
+0.2
+ 50
+180.0
+ 44
+0.0
+ 45
+0.0
+  9
+RIGHT_ARROW
+ 49
+0.2
+ 74
+     0
+  0
+LTYPE
+  5
+686
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+BATTING
+ 70
+     0
+  3
+Batting SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+ 72
+    65
+ 73
+     4
+ 40
+0.4001
+ 49
+0.0001
+ 74
+     0
+ 49
+-0.1
+ 74
+     2
+ 75
+     0
+340
+67D
+ 46
+0.1
+ 50
+0.0
+ 44
+-0.1
+ 45
+0.0
+  9
+BAT
+ 49
+-0.2
+ 74
+     2
+ 75
+     0
+340
+67D
+ 46
+0.1
+ 50
+180.0
+ 44
+0.1
+ 45
+0.0
+  9
+BAT
+ 49
+-0.1
+ 74
+     0
+  0
+LTYPE
+  5
+687
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+BORDER
+ 70
+     0
+  3
+Border __ __ . __ __ . __ __ . __ __ . __ __ .
+ 72
+    65
+ 73
+     6
+ 40
+1.75
+ 49
+0.5
+ 74
+     0
+ 49
+-0.25
+ 74
+     0
+ 49
+0.5
+ 74
+     0
+ 49
+-0.25
+ 74
+     0
+ 49
+0.0
+ 74
+     0
+ 49
+-0.25
+ 74
+     0
+  0
+LTYPE
+  5
+688
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+ACAD_ISO14W100
+ 70
+     0
+  3
+ISO dash triple-dot __ . . . __ . . . __ . . . _
  72
     65
  73
      8
  40
-36.0
- 49
 24.0
- 74
-     0
- 49
--3.0
- 74
-     0
- 49
-0.0
- 74
-     0
- 49
--3.0
- 74
-     0
- 49
-0.0
- 74
-     0
- 49
--3.0
- 74
-     0
- 49
-0.0
- 74
-     0
- 49
--3.0
- 74
-     0
-  0
-LTYPE
-  5
-234
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-ACAD_ISO09W100
- 70
-     0
-  3
-ISO long-dash double-short-dash ____ __ __ ____
- 72
-    65
- 73
-     6
- 40
-45.0
- 49
-24.0
- 74
-     0
- 49
--3.0
- 74
-     0
- 49
-6.0
- 74
-     0
- 49
--3.0
- 74
-     0
- 49
-6.0
- 74
-     0
- 49
--3.0
- 74
-     0
-  0
-LTYPE
-  5
-235
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-ACAD_ISO08W100
- 70
-     0
-  3
-ISO long-dash short-dash ____ __ ____ __ ____ _
- 72
-    65
- 73
-     4
- 40
-36.0
- 49
-24.0
- 74
-     0
- 49
--3.0
- 74
-     0
- 49
-6.0
- 74
-     0
- 49
--3.0
- 74
-     0
-  0
-LTYPE
-  5
-236
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-ACAD_ISO03W100
- 70
-     0
-  3
-ISO dash space __    __    __    __    __    __
- 72
-    65
- 73
-     2
- 40
-30.0
- 49
-12.0
- 74
-     0
- 49
--18.0
- 74
-     0
-  0
-LTYPE
-  5
-237
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-ACAD_ISO02W100
- 70
-     0
-  3
-ISO dash __ __ __ __ __ __ __ __ __ __ __ __ __
- 72
-    65
- 73
-     2
- 40
-15.0
  49
 12.0
  74
@@ -1710,30 +1924,8 @@ ISO dash __ __ __ __ __ __ __ __ __ __ __ __ __
 -3.0
  74
      0
-  0
-LTYPE
-  5
-238
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-ACAD_ISO05W100
- 70
-     0
-  3
-ISO long-dash double-dot ____ .. ____ .. ____ . 
- 72
-    65
- 73
-     6
- 40
-33.0
  49
-24.0
+0.0
  74
      0
  49
@@ -1759,47 +1951,9 @@ ISO long-dash double-dot ____ .. ____ .. ____ .
   0
 LTYPE
   5
-239
+689
 330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-ACAD_ISO04W100
- 70
-     0
-  3
-ISO long-dash dot ____ . ____ . ____ . ____ . _
- 72
-    65
- 73
-     4
- 40
-30.0
- 49
-24.0
- 74
-     0
- 49
--3.0
- 74
-     0
- 49
-0.0
- 74
-     0
- 49
--3.0
- 74
-     0
-  0
-LTYPE
-  5
-23A
-330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
@@ -1859,199 +2013,25 @@ ISO double-dash triple-dot __ __ . . . __ __ . .
   0
 LTYPE
   5
-23B
+68A
 330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
 AcDbLinetypeTableRecord
   2
-ACAD_ISO14W100
+ACAD_ISO12W100
  70
      0
   3
-ISO dash triple-dot __ . . . __ . . . __ . . . _
- 72
-    65
- 73
-     8
- 40
-24.0
- 49
-12.0
- 74
-     0
- 49
--3.0
- 74
-     0
- 49
-0.0
- 74
-     0
- 49
--3.0
- 74
-     0
- 49
-0.0
- 74
-     0
- 49
--3.0
- 74
-     0
- 49
-0.0
- 74
-     0
- 49
--3.0
- 74
-     0
-  0
-LTYPE
-  5
-23C
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-BORDER
- 70
-     0
-  3
-Border __ __ . __ __ . __ __ . __ __ . __ __ .
+ISO dash double-dot __ . . __ . . __ . . __ . . 
  72
     65
  73
      6
  40
-1.75
- 49
-0.5
- 74
-     0
- 49
--0.25
- 74
-     0
- 49
-0.5
- 74
-     0
- 49
--0.25
- 74
-     0
- 49
-0.0
- 74
-     0
- 49
--0.25
- 74
-     0
-  0
-LTYPE
-  5
-23E
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-BATTING
- 70
-     0
-  3
-Batting SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
- 72
-    65
- 73
-     4
- 40
-0.4001
- 49
-0.0001
- 74
-     0
- 49
--0.1
- 74
-     2
- 75
-     0
-340
-23D
- 46
-0.1
- 50
-0.0
- 44
--0.1
- 45
-0.0
-  9
-BAT
- 49
--0.2
- 74
-     2
- 75
-     0
-340
-23D
- 46
-0.1
- 50
-180.0
- 44
-0.1
- 45
-0.0
-  9
-BAT
- 49
--0.1
- 74
-     0
-  0
-LTYPE
-  5
-23F
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-ACAD_ISO11W100
- 70
-     0
-  3
-ISO double-dash dot __ __ . __ __ . __ __ . __ _
- 72
-    65
- 73
-     6
- 40
-33.0
- 49
-12.0
- 74
-     0
- 49
--3.0
- 74
-     0
+21.0
  49
 12.0
  74
@@ -2068,36 +2048,6 @@ ISO double-dash dot __ __ . __ __ . __ __ . __ _
 -3.0
  74
      0
-  0
-LTYPE
-  5
-240
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-ACAD_ISO10W100
- 70
-     0
-  3
-ISO dash dot __ . __ . __ . __ . __ . __ . __ . 
- 72
-    65
- 73
-     4
- 40
-18.0
- 49
-12.0
- 74
-     0
- 49
--3.0
- 74
-     0
  49
 0.0
  74
@@ -2109,9 +2059,9 @@ ISO dash dot __ . __ . __ . __ . __ . __ . __ .
   0
 LTYPE
   5
-241
+68B
 330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
@@ -2163,25 +2113,25 @@ ISO double-dash double-dot __ __ . . __ __ . . _
   0
 LTYPE
   5
-242
+68C
 330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
 AcDbLinetypeTableRecord
   2
-ACAD_ISO12W100
+ACAD_ISO10W100
  70
      0
   3
-ISO dash double-dot __ . . __ . . __ . . __ . . 
+ISO dash dot __ . __ . __ . __ . __ . __ . __ . 
  72
     65
  73
-     6
+     4
  40
-21.0
+18.0
  49
 12.0
  74
@@ -2198,6 +2148,44 @@ ISO dash double-dot __ . . __ . . __ . . __ . .
 -3.0
  74
      0
+  0
+LTYPE
+  5
+68D
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+ACAD_ISO11W100
+ 70
+     0
+  3
+ISO double-dash dot __ __ . __ __ . __ __ . __ _
+ 72
+    65
+ 73
+     6
+ 40
+33.0
+ 49
+12.0
+ 74
+     0
+ 49
+-3.0
+ 74
+     0
+ 49
+12.0
+ 74
+     0
+ 49
+-3.0
+ 74
+     0
  49
 0.0
  74
@@ -2209,123 +2197,9 @@ ISO dash double-dot __ . . __ . . __ . . __ . .
   0
 LTYPE
   5
-243
+68E
 330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-DASHDOT
- 70
-     0
-  3
-Dash dot __ . __ . __ . __ . __ . __ . __ . __
- 72
-    65
- 73
-     4
- 40
-1.0
- 49
-0.5
- 74
-     0
- 49
--0.25
- 74
-     0
- 49
-0.0
- 74
-     0
- 49
--0.25
- 74
-     0
-  0
-LTYPE
-  5
-244
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-CENTERX2
- 70
-     0
-  3
-Center (2x) ________  __  ________  __  _____
- 72
-    65
- 73
-     4
- 40
-4.0
- 49
-2.5
- 74
-     0
- 49
--0.5
- 74
-     0
- 49
-0.5
- 74
-     0
- 49
--0.5
- 74
-     0
-  0
-LTYPE
-  5
-245
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-DASHDOTX2
- 70
-     0
-  3
-Dash dot (2x) ____  .  ____  .  ____  .  ___
- 72
-    65
- 73
-     4
- 40
-2.0
- 49
-1.0
- 74
-     0
- 49
--0.5
- 74
-     0
- 49
-0.0
- 74
-     0
- 49
--0.5
- 74
-     0
-  0
-LTYPE
-  5
-246
-330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
@@ -2361,33 +2235,25 @@ Dash dot (.5x) _._._._._._._._._._._._._._._.
   0
 LTYPE
   5
-247
+68F
 330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
 AcDbLinetypeTableRecord
   2
-BORDERX2
+DASHDOTX2
  70
      0
   3
-Border (2x) ____  ____  .  ____  ____  .  ___
+Dash dot (2x) ____  .  ____  .  ____  .  ___
  72
     65
  73
-     6
+     4
  40
-3.5
- 49
-1.0
- 74
-     0
- 49
--0.5
- 74
-     0
+2.0
  49
 1.0
  74
@@ -2407,9 +2273,161 @@ Border (2x) ____  ____  .  ____  ____  .  ___
   0
 LTYPE
   5
-248
+690
 330
-1A1
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+CENTERX2
+ 70
+     0
+  3
+Center (2x) ________  __  ________  __  _____
+ 72
+    65
+ 73
+     4
+ 40
+4.0
+ 49
+2.5
+ 74
+     0
+ 49
+-0.5
+ 74
+     0
+ 49
+0.5
+ 74
+     0
+ 49
+-0.5
+ 74
+     0
+  0
+LTYPE
+  5
+691
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHDOT
+ 70
+     0
+  3
+Dash dot __ . __ . __ . __ . __ . __ . __ . __
+ 72
+    65
+ 73
+     4
+ 40
+1.0
+ 49
+0.5
+ 74
+     0
+ 49
+-0.25
+ 74
+     0
+ 49
+0.0
+ 74
+     0
+ 49
+-0.25
+ 74
+     0
+  0
+LTYPE
+  5
+692
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+CENTER
+ 70
+     0
+  3
+Center ____ _ ____ _ ____ _ ____ _ ____ _ ____
+ 72
+    65
+ 73
+     4
+ 40
+2.0
+ 49
+1.25
+ 74
+     0
+ 49
+-0.25
+ 74
+     0
+ 49
+0.25
+ 74
+     0
+ 49
+-0.25
+ 74
+     0
+  0
+LTYPE
+  5
+693
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+CENTER2
+ 70
+     0
+  3
+Center (.5x) ___ _ ___ _ ___ _ ___ _ ___ _ ___
+ 72
+    65
+ 73
+     4
+ 40
+1.125
+ 49
+0.75
+ 74
+     0
+ 49
+-0.125
+ 74
+     0
+ 49
+0.125
+ 74
+     0
+ 49
+-0.125
+ 74
+     0
+  0
+LTYPE
+  5
+694
+330
+5D0
 100
 AcDbSymbolTableRecord
 100
@@ -2453,101 +2471,33 @@ Border (.5x) __.__.__.__.__.__.__.__.__.__.__.
   0
 LTYPE
   5
-249
+695
 330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
 AcDbLinetypeTableRecord
   2
-CENTER2
+BORDERX2
  70
      0
   3
-Center (.5x) ___ _ ___ _ ___ _ ___ _ ___ _ ___
- 72
-    65
- 73
-     4
- 40
-1.125
- 49
-0.75
- 74
-     0
- 49
--0.125
- 74
-     0
- 49
-0.125
- 74
-     0
- 49
--0.125
- 74
-     0
-  0
-LTYPE
-  5
-24A
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-CENTER
- 70
-     0
-  3
-Center ____ _ ____ _ ____ _ ____ _ ____ _ ____
- 72
-    65
- 73
-     4
- 40
-2.0
- 49
-1.25
- 74
-     0
- 49
--0.25
- 74
-     0
- 49
-0.25
- 74
-     0
- 49
--0.25
- 74
-     0
-  0
-LTYPE
-  5
-24B
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-DIVIDEX2
- 70
-     0
-  3
-Divide (2x) ________  .  .  ________  .  .  _
+Border (2x) ____  ____  .  ____  ____  .  ___
  72
     65
  73
      6
  40
-2.5
+3.5
+ 49
+1.0
+ 74
+     0
+ 49
+-0.5
+ 74
+     0
  49
 1.0
  74
@@ -2564,42 +2514,118 @@ Divide (2x) ________  .  .  ________  .  .  _
 -0.5
  74
      0
- 49
-0.0
- 74
-     0
- 49
--0.5
- 74
-     0
   0
 LTYPE
   5
-24C
+696
 330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
 AcDbLinetypeTableRecord
   2
-DIVIDE2
+ACAD_ISO08W100
  70
      0
   3
-Divide (.5x) __..__..__..__..__..__..__..__.._
+ISO long-dash short-dash ____ __ ____ __ ____ _
+ 72
+    65
+ 73
+     4
+ 40
+36.0
+ 49
+24.0
+ 74
+     0
+ 49
+-3.0
+ 74
+     0
+ 49
+6.0
+ 74
+     0
+ 49
+-3.0
+ 74
+     0
+  0
+LTYPE
+  5
+697
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+ACAD_ISO09W100
+ 70
+     0
+  3
+ISO long-dash double-short-dash ____ __ __ ____
  72
     65
  73
      6
  40
-0.625
+45.0
  49
-0.25
+24.0
  74
      0
  49
--0.125
+-3.0
+ 74
+     0
+ 49
+6.0
+ 74
+     0
+ 49
+-3.0
+ 74
+     0
+ 49
+6.0
+ 74
+     0
+ 49
+-3.0
+ 74
+     0
+  0
+LTYPE
+  5
+698
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+ACAD_ISO06W100
+ 70
+     0
+  3
+ISO long-dash triple-dot ____ ... ____ ... ____
+ 72
+    65
+ 73
+     8
+ 40
+36.0
+ 49
+24.0
+ 74
+     0
+ 49
+-3.0
  74
      0
  49
@@ -2607,7 +2633,7 @@ Divide (.5x) __..__..__..__..__..__..__..__.._
  74
      0
  49
--0.125
+-3.0
  74
      0
  49
@@ -2615,165 +2641,113 @@ Divide (.5x) __..__..__..__..__..__..__..__.._
  74
      0
  49
--0.125
+-3.0
  74
      0
-  0
-LTYPE
-  5
-24D
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-DOT2
- 70
-     0
-  3
-Dot (.5x) ........................................
- 72
-    65
- 73
-     2
- 40
-0.125
  49
 0.0
  74
      0
  49
--0.125
+-3.0
  74
      0
   0
 LTYPE
   5
-24E
+699
 330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
 AcDbLinetypeTableRecord
   2
-DOT
+ACAD_ISO07W100
  70
      0
   3
-Dot . . . . . . . . . . . . . . . . . . . . . . . .
+ISO dot . . . . . . . . . . . . . . . . . . . . 
  72
     65
  73
      2
  40
-0.25
+3.0
  49
 0.0
  74
      0
  49
--0.25
+-3.0
  74
      0
   0
 LTYPE
   5
-24F
+69A
 330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
 AcDbLinetypeTableRecord
   2
-DASHED2
+ACAD_ISO04W100
  70
      0
   3
-Dashed (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ISO long-dash dot ____ . ____ . ____ . ____ . _
  72
     65
  73
-     2
+     4
  40
-0.375
+30.0
  49
-0.25
+24.0
  74
      0
  49
--0.125
+-3.0
+ 74
+     0
+ 49
+0.0
+ 74
+     0
+ 49
+-3.0
  74
      0
   0
 LTYPE
   5
-250
+69B
 330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
 AcDbLinetypeTableRecord
   2
-DASHED
+ACAD_ISO05W100
  70
      0
   3
-Dashed __ __ __ __ __ __ __ __ __ __ __ __ __ _
- 72
-    65
- 73
-     2
- 40
-0.75
- 49
-0.5
- 74
-     0
- 49
--0.25
- 74
-     0
-  0
-LTYPE
-  5
-251
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-DIVIDE
- 70
-     0
-  3
-Divide ____ . . ____ . . ____ . . ____ . . ____
+ISO long-dash double-dot ____ .. ____ .. ____ . 
  72
     65
  73
      6
  40
-1.25
+33.0
  49
-0.5
+24.0
  74
      0
  49
--0.25
- 74
-     0
- 49
-0.0
- 74
-     0
- 49
--0.25
+-3.0
  74
      0
  49
@@ -2781,63 +2755,101 @@ Divide ____ . . ____ . . ____ . . ____ . . ____
  74
      0
  49
--0.25
+-3.0
+ 74
+     0
+ 49
+0.0
+ 74
+     0
+ 49
+-3.0
  74
      0
   0
 LTYPE
   5
-252
+69C
 330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
 AcDbLinetypeTableRecord
   2
-DASHEDX2
+ACAD_ISO02W100
  70
      0
   3
-Dashed (2x) ____  ____  ____  ____  ____  ___
+ISO dash __ __ __ __ __ __ __ __ __ __ __ __ __
  72
     65
  73
      2
  40
-1.5
+15.0
  49
-1.0
+12.0
  74
      0
  49
--0.5
+-3.0
  74
      0
   0
 LTYPE
   5
-254
+69D
 330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
 AcDbLinetypeTableRecord
   2
-GAS_LINE
+ACAD_ISO03W100
  70
      0
   3
-Gas line ----GAS----GAS----GAS----GAS----GAS----GAS--
+ISO dash space __    __    __    __    __    __
  72
     65
  73
-     3
+     2
  40
-0.95
+30.0
  49
-0.5
+12.0
+ 74
+     0
+ 49
+-18.0
+ 74
+     0
+  0
+LTYPE
+  5
+69E
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+ZIGZAG
+ 70
+     0
+  3
+Zig zag /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+ 72
+    65
+ 73
+     4
+ 40
+0.8001
+ 49
+0.0001
  74
      0
  49
@@ -2847,353 +2859,45 @@ Gas line ----GAS----GAS----GAS----GAS----GAS----GAS--
  75
      0
 340
-253
+67D
  46
-0.1
- 50
-0.0
- 44
--0.1
- 45
--0.05
-  9
-GAS
- 49
--0.25
- 74
-     0
-  0
-LTYPE
-  5
-255
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-FENCELINE2
- 70
-     0
-  3
-Fenceline square ----[]-----[]----[]-----[]----[]---
- 72
-    65
- 73
-     4
- 40
-1.45
- 49
-0.25
- 74
-     0
- 49
--0.1
- 74
-     2
- 75
-     0
-340
-23D
- 46
-0.1
- 50
-0.0
- 44
--0.1
- 45
-0.0
-  9
-BOX
- 49
--0.1
- 74
-     0
- 49
-1.0
- 74
-     0
-  0
-LTYPE
-  5
-256
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-HIDDEN2
- 70
-     0
-  3
-Hidden (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
- 72
-    65
- 73
-     2
- 40
-0.1875
- 49
-0.125
- 74
-     0
- 49
--0.0625
- 74
-     0
-  0
-LTYPE
-  5
-257
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-HIDDEN
- 70
-     0
-  3
-Hidden __ __ __ __ __ __ __ __ __ __ __ __ __ __
- 72
-    65
- 73
-     2
- 40
-0.375
- 49
-0.25
- 74
-     0
- 49
--0.125
- 74
-     0
-  0
-LTYPE
-  5
-259
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-DRAINAGE
- 70
-     0
-  3
-Drainage ---->---->---->----
- 72
-    65
- 73
-     2
- 40
-0.4
- 49
 0.2
+ 50
+0.0
+ 44
+-0.2
+ 45
+0.0
+  9
+ZIG
+ 49
+-0.4
  74
      2
  75
      0
 340
-258
+67D
  46
 0.2
  50
 180.0
  44
-0.0
+0.2
  45
 0.0
   9
-RIGHT_ARROW
+ZIG
  49
-0.2
+-0.2
  74
      0
   0
 LTYPE
   5
-25A
+69F
 330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-DOTX2
- 70
-     0
-  3
-Dot (2x) .  .  .  .  .  .  .  .  .  .  .  .  .  .
- 72
-    65
- 73
-     2
- 40
-0.5
- 49
-0.0
- 74
-     0
- 49
--0.5
- 74
-     0
-  0
-LTYPE
-  5
-25B
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-FENCELINE1
- 70
-     0
-  3
-Fenceline circle ----0-----0----0-----0----0-----0--
- 72
-    65
- 73
-     4
- 40
-1.45
- 49
-0.25
- 74
-     0
- 49
--0.1
- 74
-     2
- 75
-     0
-340
-23D
- 46
-0.1
- 50
-0.0
- 44
--0.1
- 45
-0.0
-  9
-CIRC1
- 49
--0.1
- 74
-     0
- 49
-1.0
- 74
-     0
-  0
-LTYPE
-  5
-25C
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-DRAINAGE2
- 70
-     0
-  3
-Drainage reversed ----<----<----<----
- 72
-    65
- 73
-     2
- 40
-0.4
- 49
-0.2
- 74
-     2
- 75
-     0
-340
-258
- 46
-0.2
- 50
-0.0
- 44
-0.0
- 45
-0.0
-  9
-RIGHT_ARROW
- 49
-0.2
- 74
-     0
-  0
-LTYPE
-  5
-25D
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-TRACKS
- 70
-     0
-  3
-Tracks -|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
- 72
-    65
- 73
-     2
- 40
-0.3
- 49
-0.15
- 74
-     2
- 75
-     0
-340
-23D
- 46
-0.25
- 50
-0.0
- 44
-0.0
- 45
-0.0
-  9
-TRACK1
- 49
-0.15
- 74
-     0
-  0
-LTYPE
-  5
-25E
-330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
@@ -3237,199 +2941,53 @@ Phantom (2x) ____________    ____    ____   _
   0
 LTYPE
   5
-25F
+6A0
 330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
 AcDbLinetypeTableRecord
   2
-ZIGZAG
+TRACKS
  70
      0
   3
-Zig zag /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+Tracks -|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
  72
     65
  73
-     4
+     2
  40
-0.8001
+0.3
  49
-0.0001
- 74
-     0
- 49
--0.2
+0.15
  74
      2
  75
      0
 340
-23D
+67D
  46
-0.2
+0.25
  50
 0.0
  44
--0.2
+0.0
  45
 0.0
   9
-ZIG
+TRACK1
  49
--0.4
- 74
-     2
- 75
-     0
-340
-23D
- 46
-0.2
- 50
-180.0
- 44
-0.2
- 45
-0.0
-  9
-ZIG
- 49
--0.2
+0.15
  74
      0
   0
 LTYPE
   5
-260
+6A1
 330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-HOT_WATER_SUPPLY
- 70
-     0
-  3
-Hot water supply ---- HW ---- HW ---- HW ----
- 72
-    65
- 73
-     3
- 40
-0.8999999999999999
- 49
-0.5
- 74
-     0
- 49
--0.2
- 74
-     2
- 75
-     0
-340
-253
- 46
-0.1
- 50
-0.0
- 44
--0.1
- 45
--0.05
-  9
-HW
- 49
--0.2
- 74
-     0
-  0
-LTYPE
-  5
-261
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-HIDDENX2
- 70
-     0
-  3
-Hidden (2x) ____ ____ ____ ____ ____ ____ ____ 
- 72
-    65
- 73
-     2
- 40
-0.75
- 49
-0.5
- 74
-     0
- 49
--0.25
- 74
-     0
-  0
-LTYPE
-  5
-262
-330
-1A1
-100
-AcDbSymbolTableRecord
-100
-AcDbLinetypeTableRecord
-  2
-PHANTOM2
- 70
-     0
-  3
-Phantom (.5x) ___ _ _ ___ _ _ ___ _ _ ___ _ _
- 72
-    65
- 73
-     6
- 40
-1.25
- 49
-0.625
- 74
-     0
- 49
--0.125
- 74
-     0
- 49
-0.125
- 74
-     0
- 49
--0.125
- 74
-     0
- 49
-0.125
- 74
-     0
- 49
--0.125
- 74
-     0
-  0
-LTYPE
-  5
-263
-330
-1A1
+5D0
 100
 AcDbSymbolTableRecord
 100
@@ -3473,9 +3031,133 @@ Phantom ______  __  __  ______  __  __  ______
   0
 LTYPE
   5
-264
+6A2
 330
-1A1
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+PHANTOM2
+ 70
+     0
+  3
+Phantom (.5x) ___ _ _ ___ _ _ ___ _ _ ___ _ _
+ 72
+    65
+ 73
+     6
+ 40
+1.25
+ 49
+0.625
+ 74
+     0
+ 49
+-0.125
+ 74
+     0
+ 49
+0.125
+ 74
+     0
+ 49
+-0.125
+ 74
+     0
+ 49
+0.125
+ 74
+     0
+ 49
+-0.125
+ 74
+     0
+  0
+LTYPE
+  5
+6A3
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+HIDDENX2
+ 70
+     0
+  3
+Hidden (2x) ____ ____ ____ ____ ____ ____ ____ 
+ 72
+    65
+ 73
+     2
+ 40
+0.75
+ 49
+0.5
+ 74
+     0
+ 49
+-0.25
+ 74
+     0
+  0
+LTYPE
+  5
+6A4
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+HOT_WATER_SUPPLY
+ 70
+     0
+  3
+Hot water supply ---- HW ---- HW ---- HW ----
+ 72
+    65
+ 73
+     3
+ 40
+0.8999999999999999
+ 49
+0.5
+ 74
+     0
+ 49
+-0.2
+ 74
+     2
+ 75
+     0
+340
+67F
+ 46
+0.1
+ 50
+0.0
+ 44
+-0.1
+ 45
+-0.05
+  9
+HW
+ 49
+-0.2
+ 74
+     0
+  0
+LTYPE
+  5
+6A5
+330
+5D0
 100
 AcDbSymbolTableRecord
 100
@@ -3493,25 +3175,343 @@ Solid line
  40
 0.0
   0
+LTYPE
+  5
+6A6
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DOT
+ 70
+     0
+  3
+Dot . . . . . . . . . . . . . . . . . . . . . . . .
+ 72
+    65
+ 73
+     2
+ 40
+0.25
+ 49
+0.0
+ 74
+     0
+ 49
+-0.25
+ 74
+     0
+  0
+LTYPE
+  5
+6A7
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DOT2
+ 70
+     0
+  3
+Dot (.5x) ........................................
+ 72
+    65
+ 73
+     2
+ 40
+0.125
+ 49
+0.0
+ 74
+     0
+ 49
+-0.125
+ 74
+     0
+  0
+LTYPE
+  5
+6A8
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DIVIDE2
+ 70
+     0
+  3
+Divide (.5x) __..__..__..__..__..__..__..__.._
+ 72
+    65
+ 73
+     6
+ 40
+0.625
+ 49
+0.25
+ 74
+     0
+ 49
+-0.125
+ 74
+     0
+ 49
+0.0
+ 74
+     0
+ 49
+-0.125
+ 74
+     0
+ 49
+0.0
+ 74
+     0
+ 49
+-0.125
+ 74
+     0
+  0
+LTYPE
+  5
+6A9
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DIVIDEX2
+ 70
+     0
+  3
+Divide (2x) ________  .  .  ________  .  .  _
+ 72
+    65
+ 73
+     6
+ 40
+2.5
+ 49
+1.0
+ 74
+     0
+ 49
+-0.5
+ 74
+     0
+ 49
+0.0
+ 74
+     0
+ 49
+-0.5
+ 74
+     0
+ 49
+0.0
+ 74
+     0
+ 49
+-0.5
+ 74
+     0
+  0
+LTYPE
+  5
+6AA
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHEDX2
+ 70
+     0
+  3
+Dashed (2x) ____  ____  ____  ____  ____  ___
+ 72
+    65
+ 73
+     2
+ 40
+1.5
+ 49
+1.0
+ 74
+     0
+ 49
+-0.5
+ 74
+     0
+  0
+LTYPE
+  5
+6AB
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DIVIDE
+ 70
+     0
+  3
+Divide ____ . . ____ . . ____ . . ____ . . ____
+ 72
+    65
+ 73
+     6
+ 40
+1.25
+ 49
+0.5
+ 74
+     0
+ 49
+-0.25
+ 74
+     0
+ 49
+0.0
+ 74
+     0
+ 49
+-0.25
+ 74
+     0
+ 49
+0.0
+ 74
+     0
+ 49
+-0.25
+ 74
+     0
+  0
+LTYPE
+  5
+6AC
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHED
+ 70
+     0
+  3
+Dashed __ __ __ __ __ __ __ __ __ __ __ __ __ _
+ 72
+    65
+ 73
+     2
+ 40
+0.75
+ 49
+0.5
+ 74
+     0
+ 49
+-0.25
+ 74
+     0
+  0
+LTYPE
+  5
+6AD
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+DASHED2
+ 70
+     0
+  3
+Dashed (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ 72
+    65
+ 73
+     2
+ 40
+0.375
+ 49
+0.25
+ 74
+     0
+ 49
+-0.125
+ 74
+     0
+  0
+LTYPE
+  5
+6AE
+330
+5D0
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+HIDDEN
+ 70
+     0
+  3
+Hidden __ __ __ __ __ __ __ __ __ __ __ __ __ __
+ 72
+    65
+ 73
+     2
+ 40
+0.375
+ 49
+0.25
+ 74
+     0
+ 49
+-0.125
+ 74
+     0
+  0
 ENDTAB
   0
 TABLE
   2
 LAYER
   5
-19F
+5CE
 330
 0
 100
 AcDbSymbolTable
  70
-     2
+    13
   0
 LAYER
   5
-1AC
+5DB
 330
-19F
+5CE
 100
 AcDbSymbolTableRecord
 100
@@ -3527,17 +3527,357 @@ Continuous
 370
     -3
 390
-1AB
+5DA
 347
-1E1
+610
 348
 0
   0
 LAYER
   5
-265
+6AF
 330
-19F
+5CE
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+CAM
+ 70
+     4
+ 62
+     7
+  6
+Continuous
+370
+    20
+390
+5DA
+347
+610
+348
+0
+1001
+QCAD
+1000
+ScreenBasedLinetypes:1
+1000
+snappable:0
+  0
+LAYER
+  5
+6B0
+330
+5CE
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+CAM ... GCodeOffsetIN
+ 70
+     0
+ 62
+     7
+  6
+Continuous
+370
+    20
+390
+5DA
+347
+610
+348
+0
+1001
+QCAD
+1000
+CamLastUpdate:20240227161554516
+1000
+ScreenBasedLinetypes:1
+  0
+LAYER
+  5
+6B1
+330
+5CE
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+CAM ... GCodeOffsetIN ... normal
+ 70
+     0
+ 62
+     8
+  6
+Continuous
+370
+    20
+390
+5DA
+347
+610
+348
+0
+1001
+QCAD
+1000
+ScreenBasedLinetypes:1
+  0
+LAYER
+  5
+6B2
+330
+5CE
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+CAM ... GCodeOffsetIN ... offset
+ 70
+     0
+ 62
+     7
+  6
+DASHED2
+370
+    20
+390
+5DA
+347
+610
+348
+0
+1001
+QCAD
+1000
+ScreenBasedLinetypes:1
+  0
+LAYER
+  5
+6B3
+330
+5CE
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+CAM ... GCodeOffsetIN ... rapid
+ 70
+     0
+ 62
+   150
+420
+    35071
+  6
+DASHDOT2
+370
+    20
+390
+5DA
+347
+610
+348
+0
+1001
+QCAD
+1000
+ScreenBasedLinetypes:1
+  0
+LAYER
+  5
+6B4
+330
+5CE
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+CAM ... GCodeOffsetIN ... source
+ 70
+     1
+ 62
+    -7
+  6
+Continuous
+370
+    20
+390
+5DA
+347
+610
+348
+0
+1001
+QCAD
+1000
+ScreenBasedLinetypes:1
+  0
+LAYER
+  5
+6B5
+330
+5CE
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+CAM ... GCodeOffsetMM
+ 70
+     1
+ 62
+    -7
+  6
+Continuous
+370
+    20
+390
+5DA
+347
+610
+348
+0
+1001
+QCAD
+1000
+CamLastUpdate:20240227152908635
+1000
+ScreenBasedLinetypes:1
+  0
+LAYER
+  5
+6B6
+330
+5CE
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+CAM ... GCodeOffsetMM ... normal
+ 70
+     0
+ 62
+     8
+  6
+Continuous
+370
+    20
+390
+5DA
+347
+610
+348
+0
+1001
+QCAD
+1000
+ScreenBasedLinetypes:1
+  0
+LAYER
+  5
+6B7
+330
+5CE
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+CAM ... GCodeOffsetMM ... offset
+ 70
+     0
+ 62
+     7
+  6
+DASHED2
+370
+    20
+390
+5DA
+347
+610
+348
+0
+1001
+QCAD
+1000
+ScreenBasedLinetypes:1
+  0
+LAYER
+  5
+6B8
+330
+5CE
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+CAM ... GCodeOffsetMM ... rapid
+ 70
+     0
+ 62
+   150
+420
+    35071
+  6
+DASHDOT2
+370
+    20
+390
+5DA
+347
+610
+348
+0
+1001
+QCAD
+1000
+ScreenBasedLinetypes:1
+  0
+LAYER
+  5
+6B9
+330
+5CE
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+CAM ... GCodeOffsetMM ... source
+ 70
+     1
+ 62
+    -7
+  6
+Continuous
+370
+    20
+390
+5DA
+347
+610
+348
+0
+1001
+QCAD
+1000
+ScreenBasedLinetypes:1
+  0
+LAYER
+  5
+6BA
+330
+5CE
 100
 AcDbSymbolTableRecord
 100
@@ -3553,9 +3893,9 @@ Continuous
 370
     -3
 390
-1AB
+5DA
 347
-1E1
+610
 348
 0
   0
@@ -3565,7 +3905,7 @@ TABLE
   2
 STYLE
   5
-1A0
+5CF
 330
 0
 100
@@ -3575,9 +3915,9 @@ AcDbSymbolTable
   0
 STYLE
   5
-1AD
+5DC
 330
-1A0
+5CF
 100
 AcDbSymbolTableRecord
 100
@@ -3603,9 +3943,9 @@ txt
   0
 STYLE
   5
-23D
+67D
 330
-1A0
+5CF
 100
 AcDbSymbolTableRecord
 100
@@ -3631,9 +3971,9 @@ ltypeshp.shx
   0
 STYLE
   5
-253
+67F
 330
-1A0
+5CF
 100
 AcDbSymbolTableRecord
 100
@@ -3659,9 +3999,9 @@ STANDARD
   0
 STYLE
   5
-258
+681
 330
-1A0
+5CF
 100
 AcDbSymbolTableRecord
 100
@@ -3691,7 +4031,7 @@ TABLE
   2
 VIEW
   5
-1A2
+5D1
 330
 0
 100
@@ -3705,7 +4045,7 @@ TABLE
   2
 UCS
   5
-1A3
+5D2
 330
 0
 100
@@ -3719,7 +4059,7 @@ TABLE
   2
 APPID
   5
-1A5
+5D4
 330
 0
 100
@@ -3729,9 +4069,9 @@ AcDbSymbolTable
   0
 APPID
   5
-1AE
+5DD
 330
-1A5
+5D4
 100
 AcDbSymbolTableRecord
 100
@@ -3743,9 +4083,9 @@ ACAD
   0
 APPID
   5
-1F9
+628
 330
-1A5
+5D4
 100
 AcDbSymbolTableRecord
 100
@@ -3761,7 +4101,7 @@ TABLE
   2
 DIMSTYLE
   5
-1A6
+5D5
 330
 0
 100
@@ -3773,9 +4113,9 @@ AcDbDimStyleTable
   0
 DIMSTYLE
 105
-1C2
+5F1
 330
-1A6
+5D5
 100
 AcDbSymbolTableRecord
 100
@@ -3787,13 +4127,13 @@ Standard
 178
      0
 340
-1AD
+5DC
   0
 DIMSTYLE
 105
-231
+67B
 330
-1A6
+5D5
 100
 AcDbSymbolTableRecord
 100
@@ -3807,7 +4147,7 @@ QCADDimStyle
 279
      2
 340
-1AD
+5DC
   0
 ENDTAB
   0
@@ -3815,19 +4155,19 @@ TABLE
   2
 BLOCK_RECORD
   5
-19E
+5CD
 330
 0
 100
 AcDbSymbolTable
  70
-     0
+     3
   0
 BLOCK_RECORD
   5
-1BA
+5E9
 330
-19E
+5CD
 100
 AcDbSymbolTableRecord
 100
@@ -3835,7 +4175,7 @@ AcDbBlockTableRecord
   2
 *Model_Space
 340
-1BD
+5EC
  70
      0
 280
@@ -3845,9 +4185,9 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-1B6
+5E5
 330
-19E
+5CD
 100
 AcDbSymbolTableRecord
 100
@@ -3855,13 +4195,165 @@ AcDbBlockTableRecord
   2
 *Paper_Space
 340
-1B9
+5E8
  70
      0
 280
      1
 281
      0
+  0
+BLOCK_RECORD
+  5
+6BD
+330
+5CD
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+CAMTOOL$$GCodeOffsetIN$$yyy
+340
+0
+ 70
+     0
+280
+     1
+281
+     0
+1001
+QCAD
+1000
+CamDescription:Mill (0.125in)
+1000
+CamDiameter:0.125
+1000
+CamFeedRate:10
+1000
+CamPlungeRate:5
+1000
+CamSpindleSpeed:12000
+1000
+CamToolFlag:1
+1000
+CamToolType:1
+1000
+ResourceFlag:1
+  0
+BLOCK_RECORD
+  5
+6C0
+330
+5CD
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+CAMTOOL$$GCodeOffsetMM$$ttt
+340
+0
+ 70
+     0
+280
+     1
+281
+     0
+1001
+QCAD
+1000
+CamDescription:Mill (0.25in)
+1000
+CamDiameter:0.25
+1000
+CamFeedRate:50
+1000
+CamPlungeRate:20
+1000
+CamSpindleSpeed:20000
+1000
+CamToolFlag:1
+1000
+CamToolType:1
+1000
+ResourceFlag:1
+  0
+BLOCK_RECORD
+  5
+6C3
+330
+5CD
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+CAMTOOLPATH$$GCodeOffsetIN$$Profile 1
+340
+0
+102
+{BLKREFS
+331
+535
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
+1001
+QCAD
+1000
+CamAllowanceOffset:0
+1000
+CamContourCount:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLeadInSize:0.25
+1000
+CamLeadInType:4
+1000
+CamLeadOutSize:0.25
+1000
+CamLeadOutType:4
+1000
+CamLockLeadSize:1
+1000
+CamLockLeadType:1
+1000
+CamOvercut:1
+1000
+CamPlungeRate:5
+1000
+CamProfileToolpathFlag:1
+1000
+CamSide:1
+1000
+CamSpindleSpeed:12000
+1000
+CamTool:yyy
+1000
+CamToolpathIndex:0
+1000
+CamToolpathOrder:0
+1000
+CamUseStartOfPolyline:0
+1000
+CamZClearance:0.75
+1000
+CamZCuttingDepth:0.77
+1000
+CamZPasses:4
+1000
+CamZStartDepth:0
+1000
+ResourceFlag:1
   0
 ENDTAB
   0
@@ -3873,9 +4365,9 @@ BLOCKS
   0
 BLOCK
   5
-1BB
+5EA
 330
-1BA
+5E9
 100
 AcDbEntity
   8
@@ -3899,9 +4391,9 @@ AcDbBlockBegin
   0
 ENDBLK
   5
-1BC
+5EB
 330
-1BA
+5E9
 100
 AcDbEntity
   8
@@ -3911,9 +4403,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-1B7
+5E6
 330
-1B6
+5E5
 100
 AcDbEntity
  67
@@ -3939,13 +4431,7815 @@ AcDbBlockBegin
   0
 ENDBLK
   5
-1B8
+5E7
 330
-1B6
+5E5
 100
 AcDbEntity
  67
      1
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+6BE
+330
+6BD
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+CAMTOOL$$GCodeOffsetIN$$yyy
+ 70
+     0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+CAMTOOL$$GCodeOffsetIN$$yyy
+  1
+
+  0
+ENDBLK
+  5
+6BF
+330
+6BD
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+6C1
+330
+6C0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+CAMTOOL$$GCodeOffsetMM$$ttt
+ 70
+     0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+CAMTOOL$$GCodeOffsetMM$$ttt
+  1
+
+  0
+ENDBLK
+  5
+6C2
+330
+6C0
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+6C4
+330
+6C3
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+CAMTOOLPATH$$GCodeOffsetIN$$Profile 1
+ 70
+     0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+CAMTOOLPATH$$GCodeOffsetIN$$Profile 1
+  1
+
+  0
+LWPOLYLINE
+  5
+536
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... source
+  6
+Continuous
+100
+AcDbPolyline
+ 90
+       11
+ 70
+   129
+ 43
+0.0
+ 10
+0.0
+ 20
+5.125
+ 10
+0.0
+ 20
+1.25
+ 10
+0.2499999999999999
+ 20
+0.8100000000000002
+ 42
+0.4142135623730948
+ 10
+1.059999999999999
+ 20
+-0.0000000000000004
+ 10
+11.31500000000002
+ 20
+-0.0000000000000001
+ 42
+0.414213562373095
+ 10
+12.12500000000002
+ 20
+0.8099999999999987
+ 10
+12.12500000000002
+ 20
+9.44
+ 42
+0.4142135623730938
+ 10
+11.31500000000002
+ 20
+10.25
+ 10
+1.06
+ 20
+10.25
+ 42
+0.414213562373095
+ 10
+0.2499999999999996
+ 20
+9.439999999999998
+ 10
+0.0
+ 20
+9.0
+1001
+QCAD
+1000
+CamIgnore:1
+1000
+CamSourceHandle:49d
+  0
+ARC
+  5
+537
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+0.25
+ 20
+6.125
+ 30
+-0.1925
+ 40
+0.25
+100
+AcDbArc
+ 50
+0.0
+ 51
+180.0
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamCompensationOn:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamLeadIn:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+538
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+6.125
+ 30
+-0.1925
+ 11
+0.0
+ 21
+5.125
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamOvercutIn:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+539
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+5.125
+ 30
+-0.1925
+ 11
+0.0
+ 21
+1.25
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamFirst:1
+1000
+CamFirstSegment:1
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+53A
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+1.25
+ 30
+-0.1925
+ 11
+0.2499999999999999
+ 21
+0.8100000000000002
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+ARC
+  5
+53B
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+1.06
+ 20
+0.8099999999999997
+ 30
+-0.1925
+ 40
+0.8100000000000004
+100
+AcDbArc
+ 50
+180.0
+ 51
+269.9999999999999
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+53C
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+1.059999999999999
+ 20
+-0.0000000000000004
+ 30
+-0.1925
+ 11
+11.31500000000002
+ 21
+-0.0000000000000001
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+ARC
+  5
+53D
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+11.31500000000002
+ 20
+0.8099999999999987
+ 30
+-0.1925
+ 40
+0.8099999999999987
+100
+AcDbArc
+ 50
+270.0
+ 51
+0.0
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+53E
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+12.12500000000002
+ 20
+0.8099999999999987
+ 30
+-0.1925
+ 11
+12.12500000000002
+ 21
+9.44
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+ARC
+  5
+53F
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+11.31500000000002
+ 20
+9.439999999999998
+ 30
+-0.1925
+ 40
+0.8100000000000023
+100
+AcDbArc
+ 50
+0.0
+ 51
+89.99999999999976
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+540
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+11.31500000000002
+ 20
+10.25
+ 30
+-0.1925
+ 11
+1.06
+ 21
+10.25
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+ARC
+  5
+541
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+1.060000000000001
+ 20
+9.439999999999998
+ 30
+-0.1925
+ 40
+0.8100000000000014
+100
+AcDbArc
+ 50
+90.00000000000006
+ 51
+180.0
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+542
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.2499999999999996
+ 20
+9.439999999999998
+ 30
+-0.1925
+ 11
+0.0
+ 21
+9.0
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+543
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+9.0
+ 30
+-0.1925
+ 11
+0.0
+ 21
+5.125
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLast:1
+1000
+CamLastContour:1
+1000
+CamLastSegment:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+544
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+5.125
+ 30
+-0.1925
+ 11
+0.0
+ 21
+4.125
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamOvercutOut:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+ARC
+  5
+545
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+0.25
+ 20
+4.125
+ 30
+-0.1925
+ 40
+0.25
+100
+AcDbArc
+ 50
+180.0
+ 51
+0.0
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamCompensationOff:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamLeadOut:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+546
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... rapid
+100
+AcDbLine
+ 10
+0.0
+ 20
+0.0
+ 30
+2.0
+ 11
+0.5
+ 21
+6.125
+ 31
+2.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamRapidMove:1
+1000
+CamTool:yyy
+1000
+CamUnknownPosition:1
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+547
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... rapid
+100
+AcDbLine
+ 10
+0.5
+ 20
+6.125
+ 30
+2.0
+ 11
+0.5
+ 21
+6.125
+ 31
+0.75
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamRapidMove:1
+1000
+CamTool:yyy
+1000
+CamToolDownClearance:1
+1000
+CamZClearancePass:0.75
+1000
+CamZMove:1
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+548
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... rapid
+100
+AcDbLine
+ 10
+0.5
+ 20
+6.125
+ 30
+0.75
+ 11
+0.5
+ 21
+6.125
+ 31
+0.75
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamRapidMove:1
+1000
+CamTool:yyy
+1000
+CamToolDownClearancePass:1
+1000
+CamZClearancePass:0.75
+1000
+CamZMove:1
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+549
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.5
+ 20
+6.125
+ 30
+0.75
+ 11
+0.5
+ 21
+6.125
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamDirection:1
+1000
+CamFeedRate:5
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamToolDown:1
+1000
+CamZClearancePass:0.75
+1000
+CamZMove:1
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+ARC
+  5
+54A
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+0.28125
+ 20
+6.125
+ 30
+-0.1925
+ 40
+0.21875
+100
+AcDbArc
+ 50
+0.0
+ 51
+180.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamLeadIn:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+54B
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625
+ 20
+6.125
+ 30
+-0.1925
+ 11
+0.0625
+ 21
+5.125
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamOvercutIn:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+54C
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625
+ 20
+5.125
+ 30
+-0.1925
+ 11
+0.0625
+ 21
+1.2665158092888
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+54D
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625
+ 20
+1.2665158092888
+ 30
+-0.1925
+ 11
+0.3043410348370479
+ 21
+0.8408755879755956
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+ARC
+  5
+54E
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+0.2499999999999999
+ 20
+0.8100000000000003
+ 30
+-0.1925
+ 40
+0.0625
+100
+AcDbArc
+ 50
+0.0
+ 51
+29.60445074600478
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+1000
+reversed:1
+  0
+ARC
+  5
+54F
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+1.060000000000001
+ 20
+0.8099999999999999
+ 30
+-0.1925
+ 40
+0.7475000000000006
+100
+AcDbArc
+ 50
+180.0
+ 51
+269.9999999999999
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+550
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+1.059999999999999
+ 20
+0.0624999999999993
+ 30
+-0.1925
+ 11
+11.31500000000002
+ 21
+0.0624999999999999
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+ARC
+  5
+551
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+11.31500000000002
+ 20
+0.8099999999999987
+ 30
+-0.1925
+ 40
+0.7474999999999988
+100
+AcDbArc
+ 50
+270.0
+ 51
+0.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+552
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+12.06250000000002
+ 20
+0.809999999999999
+ 30
+-0.1925
+ 11
+12.06250000000002
+ 21
+9.44
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+ARC
+  5
+553
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+11.31500000000002
+ 20
+9.44
+ 30
+-0.1925
+ 40
+0.7475000000000004
+100
+AcDbArc
+ 50
+0.0
+ 51
+89.99999999999987
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+554
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+11.31500000000002
+ 20
+10.1875
+ 30
+-0.1925
+ 11
+1.06
+ 21
+10.1875
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+ARC
+  5
+555
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+1.06
+ 20
+9.439999999999998
+ 30
+-0.1925
+ 40
+0.7475000000000012
+100
+AcDbArc
+ 50
+90.00000000000004
+ 51
+180.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+ARC
+  5
+556
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+0.2499999999999997
+ 20
+9.44
+ 30
+-0.1925
+ 40
+0.0624999999999996
+100
+AcDbArc
+ 50
+330.395549253995
+ 51
+0.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+1000
+reversed:1
+  0
+LINE
+  5
+557
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.3043410348370473
+ 20
+9.409124412024404
+ 30
+-0.1925
+ 11
+0.0625000000000001
+ 21
+8.9834841907112
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+558
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625000000000001
+ 20
+8.9834841907112
+ 30
+-0.1925
+ 11
+0.0625
+ 21
+5.125
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+LINE
+  5
+559
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625
+ 20
+5.125
+ 30
+-0.1925
+ 11
+0.0625
+ 21
+4.125
+ 31
+-0.1925
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamOvercutOut:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+ARC
+  5
+55A
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+0.28125
+ 20
+4.125
+ 30
+-0.1925
+ 40
+0.21875
+100
+AcDbArc
+ 50
+180.0
+ 51
+0.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamLeadOut:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:1
+1000
+CamZPassIndex:0
+1000
+CamZPasses:4
+  0
+ARC
+  5
+55B
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+0.25
+ 20
+6.125
+ 30
+-0.385
+ 40
+0.25
+100
+AcDbArc
+ 50
+0.0
+ 51
+180.0
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamCompensationOn:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamLeadIn:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+55C
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+6.125
+ 30
+-0.385
+ 11
+0.0
+ 21
+5.125
+ 31
+-0.385
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamOvercutIn:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+55D
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+5.125
+ 30
+-0.385
+ 11
+0.0
+ 21
+1.25
+ 31
+-0.385
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamFirst:1
+1000
+CamFirstSegment:1
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+55E
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+1.25
+ 30
+-0.385
+ 11
+0.2499999999999999
+ 21
+0.8100000000000002
+ 31
+-0.385
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+ARC
+  5
+55F
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+1.06
+ 20
+0.8099999999999997
+ 30
+-0.385
+ 40
+0.8100000000000004
+100
+AcDbArc
+ 50
+180.0
+ 51
+269.9999999999999
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+560
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+1.059999999999999
+ 20
+-0.0000000000000004
+ 30
+-0.385
+ 11
+11.31500000000002
+ 21
+-0.0000000000000001
+ 31
+-0.385
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+ARC
+  5
+561
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+11.31500000000002
+ 20
+0.8099999999999987
+ 30
+-0.385
+ 40
+0.8099999999999987
+100
+AcDbArc
+ 50
+270.0
+ 51
+0.0
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+562
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+12.12500000000002
+ 20
+0.8099999999999987
+ 30
+-0.385
+ 11
+12.12500000000002
+ 21
+9.44
+ 31
+-0.385
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+ARC
+  5
+563
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+11.31500000000002
+ 20
+9.439999999999998
+ 30
+-0.385
+ 40
+0.8100000000000023
+100
+AcDbArc
+ 50
+0.0
+ 51
+89.99999999999976
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+564
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+11.31500000000002
+ 20
+10.25
+ 30
+-0.385
+ 11
+1.06
+ 21
+10.25
+ 31
+-0.385
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+ARC
+  5
+565
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+1.060000000000001
+ 20
+9.439999999999998
+ 30
+-0.385
+ 40
+0.8100000000000014
+100
+AcDbArc
+ 50
+90.00000000000006
+ 51
+180.0
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+566
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.2499999999999996
+ 20
+9.439999999999998
+ 30
+-0.385
+ 11
+0.0
+ 21
+9.0
+ 31
+-0.385
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+567
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+9.0
+ 30
+-0.385
+ 11
+0.0
+ 21
+5.125
+ 31
+-0.385
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLast:1
+1000
+CamLastContour:1
+1000
+CamLastSegment:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+568
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+5.125
+ 30
+-0.385
+ 11
+0.0
+ 21
+4.125
+ 31
+-0.385
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamOvercutOut:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+ARC
+  5
+569
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+0.25
+ 20
+4.125
+ 30
+-0.385
+ 40
+0.25
+100
+AcDbArc
+ 50
+180.0
+ 51
+0.0
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamCompensationOff:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamLeadOut:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+56A
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.5
+ 20
+4.125
+ 30
+-0.1925
+ 11
+0.5
+ 21
+4.125
+ 31
+0.75
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamToolUp:1
+1000
+CamZClearancePass:0.75
+1000
+CamZMove:1
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+56B
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... rapid
+100
+AcDbLine
+ 10
+0.5
+ 20
+4.125
+ 30
+0.75
+ 11
+0.5
+ 21
+6.125
+ 31
+0.75
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamRapidMove:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+56C
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... rapid
+100
+AcDbLine
+ 10
+0.5
+ 20
+6.125
+ 30
+0.75
+ 11
+0.5
+ 21
+6.125
+ 31
+0.75
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamRapidMove:1
+1000
+CamTool:yyy
+1000
+CamToolDownClearance:1
+1000
+CamZClearancePass:0.75
+1000
+CamZMove:1
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+56D
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... rapid
+100
+AcDbLine
+ 10
+0.5
+ 20
+6.125
+ 30
+0.75
+ 11
+0.5
+ 21
+6.125
+ 31
+0.75
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamRapidMove:1
+1000
+CamTool:yyy
+1000
+CamToolDownClearancePass:1
+1000
+CamZClearancePass:0.75
+1000
+CamZMove:1
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+56E
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.5
+ 20
+6.125
+ 30
+0.75
+ 11
+0.5
+ 21
+6.125
+ 31
+-0.385
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamDirection:1
+1000
+CamFeedRate:5
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamToolDown:1
+1000
+CamZClearancePass:0.75
+1000
+CamZMove:1
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+ARC
+  5
+56F
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+0.28125
+ 20
+6.125
+ 30
+-0.385
+ 40
+0.21875
+100
+AcDbArc
+ 50
+0.0
+ 51
+180.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamLeadIn:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+570
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625
+ 20
+6.125
+ 30
+-0.385
+ 11
+0.0625
+ 21
+5.125
+ 31
+-0.385
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamOvercutIn:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+571
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625
+ 20
+5.125
+ 30
+-0.385
+ 11
+0.0625
+ 21
+1.2665158092888
+ 31
+-0.385
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+572
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625
+ 20
+1.2665158092888
+ 30
+-0.385
+ 11
+0.3043410348370479
+ 21
+0.8408755879755956
+ 31
+-0.385
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+ARC
+  5
+573
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+0.2499999999999999
+ 20
+0.8100000000000003
+ 30
+-0.385
+ 40
+0.0625
+100
+AcDbArc
+ 50
+0.0
+ 51
+29.60445074600478
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+1000
+reversed:1
+  0
+ARC
+  5
+574
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+1.060000000000001
+ 20
+0.8099999999999999
+ 30
+-0.385
+ 40
+0.7475000000000006
+100
+AcDbArc
+ 50
+180.0
+ 51
+269.9999999999999
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+575
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+1.059999999999999
+ 20
+0.0624999999999993
+ 30
+-0.385
+ 11
+11.31500000000002
+ 21
+0.0624999999999999
+ 31
+-0.385
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+ARC
+  5
+576
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+11.31500000000002
+ 20
+0.8099999999999987
+ 30
+-0.385
+ 40
+0.7474999999999988
+100
+AcDbArc
+ 50
+270.0
+ 51
+0.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+577
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+12.06250000000002
+ 20
+0.809999999999999
+ 30
+-0.385
+ 11
+12.06250000000002
+ 21
+9.44
+ 31
+-0.385
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+ARC
+  5
+578
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+11.31500000000002
+ 20
+9.44
+ 30
+-0.385
+ 40
+0.7475000000000004
+100
+AcDbArc
+ 50
+0.0
+ 51
+89.99999999999987
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+579
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+11.31500000000002
+ 20
+10.1875
+ 30
+-0.385
+ 11
+1.06
+ 21
+10.1875
+ 31
+-0.385
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+ARC
+  5
+57A
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+1.06
+ 20
+9.439999999999998
+ 30
+-0.385
+ 40
+0.7475000000000012
+100
+AcDbArc
+ 50
+90.00000000000004
+ 51
+180.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+ARC
+  5
+57B
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+0.2499999999999997
+ 20
+9.44
+ 30
+-0.385
+ 40
+0.0624999999999996
+100
+AcDbArc
+ 50
+330.395549253995
+ 51
+0.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+1000
+reversed:1
+  0
+LINE
+  5
+57C
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.3043410348370473
+ 20
+9.409124412024404
+ 30
+-0.385
+ 11
+0.0625000000000001
+ 21
+8.9834841907112
+ 31
+-0.385
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+57D
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625000000000001
+ 20
+8.9834841907112
+ 30
+-0.385
+ 11
+0.0625
+ 21
+5.125
+ 31
+-0.385
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+57E
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625
+ 20
+5.125
+ 30
+-0.385
+ 11
+0.0625
+ 21
+4.125
+ 31
+-0.385
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamOvercutOut:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+ARC
+  5
+57F
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+0.28125
+ 20
+4.125
+ 30
+-0.385
+ 40
+0.21875
+100
+AcDbArc
+ 50
+180.0
+ 51
+0.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamLeadOut:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:2
+1000
+CamZPassIndex:1
+1000
+CamZPasses:4
+  0
+ARC
+  5
+580
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+0.25
+ 20
+6.125
+ 30
+-0.5775
+ 40
+0.25
+100
+AcDbArc
+ 50
+0.0
+ 51
+180.0
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamCompensationOn:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamLeadIn:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+581
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+6.125
+ 30
+-0.5775
+ 11
+0.0
+ 21
+5.125
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamOvercutIn:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+582
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+5.125
+ 30
+-0.5775
+ 11
+0.0
+ 21
+1.25
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamFirst:1
+1000
+CamFirstSegment:1
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+583
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+1.25
+ 30
+-0.5775
+ 11
+0.2499999999999999
+ 21
+0.8100000000000002
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+ARC
+  5
+584
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+1.06
+ 20
+0.8099999999999997
+ 30
+-0.5775
+ 40
+0.8100000000000004
+100
+AcDbArc
+ 50
+180.0
+ 51
+269.9999999999999
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+585
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+1.059999999999999
+ 20
+-0.0000000000000004
+ 30
+-0.5775
+ 11
+11.31500000000002
+ 21
+-0.0000000000000001
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+ARC
+  5
+586
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+11.31500000000002
+ 20
+0.8099999999999987
+ 30
+-0.5775
+ 40
+0.8099999999999987
+100
+AcDbArc
+ 50
+270.0
+ 51
+0.0
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+587
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+12.12500000000002
+ 20
+0.8099999999999987
+ 30
+-0.5775
+ 11
+12.12500000000002
+ 21
+9.44
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+ARC
+  5
+588
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+11.31500000000002
+ 20
+9.439999999999998
+ 30
+-0.5775
+ 40
+0.8100000000000023
+100
+AcDbArc
+ 50
+0.0
+ 51
+89.99999999999976
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+589
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+11.31500000000002
+ 20
+10.25
+ 30
+-0.5775
+ 11
+1.06
+ 21
+10.25
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+ARC
+  5
+58A
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+1.060000000000001
+ 20
+9.439999999999998
+ 30
+-0.5775
+ 40
+0.8100000000000014
+100
+AcDbArc
+ 50
+90.00000000000006
+ 51
+180.0
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+58B
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.2499999999999996
+ 20
+9.439999999999998
+ 30
+-0.5775
+ 11
+0.0
+ 21
+9.0
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+58C
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+9.0
+ 30
+-0.5775
+ 11
+0.0
+ 21
+5.125
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLast:1
+1000
+CamLastContour:1
+1000
+CamLastSegment:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+58D
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+5.125
+ 30
+-0.5775
+ 11
+0.0
+ 21
+4.125
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamOvercutOut:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+ARC
+  5
+58E
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+0.25
+ 20
+4.125
+ 30
+-0.5775
+ 40
+0.25
+100
+AcDbArc
+ 50
+180.0
+ 51
+0.0
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamCompensationOff:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamLeadOut:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+58F
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.5
+ 20
+4.125
+ 30
+-0.385
+ 11
+0.5
+ 21
+4.125
+ 31
+0.75
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamToolUp:1
+1000
+CamZClearancePass:0.75
+1000
+CamZMove:1
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+590
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... rapid
+100
+AcDbLine
+ 10
+0.5
+ 20
+4.125
+ 30
+0.75
+ 11
+0.5
+ 21
+6.125
+ 31
+0.75
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamRapidMove:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+591
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... rapid
+100
+AcDbLine
+ 10
+0.5
+ 20
+6.125
+ 30
+0.75
+ 11
+0.5
+ 21
+6.125
+ 31
+0.75
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamRapidMove:1
+1000
+CamTool:yyy
+1000
+CamToolDownClearance:1
+1000
+CamZClearancePass:0.75
+1000
+CamZMove:1
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+592
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... rapid
+100
+AcDbLine
+ 10
+0.5
+ 20
+6.125
+ 30
+0.75
+ 11
+0.5
+ 21
+6.125
+ 31
+0.75
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamRapidMove:1
+1000
+CamTool:yyy
+1000
+CamToolDownClearancePass:1
+1000
+CamZClearancePass:0.75
+1000
+CamZMove:1
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+593
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.5
+ 20
+6.125
+ 30
+0.75
+ 11
+0.5
+ 21
+6.125
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamDirection:1
+1000
+CamFeedRate:5
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamToolDown:1
+1000
+CamZClearancePass:0.75
+1000
+CamZMove:1
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+ARC
+  5
+594
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+0.28125
+ 20
+6.125
+ 30
+-0.5775
+ 40
+0.21875
+100
+AcDbArc
+ 50
+0.0
+ 51
+180.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamLeadIn:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+595
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625
+ 20
+6.125
+ 30
+-0.5775
+ 11
+0.0625
+ 21
+5.125
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamOvercutIn:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+596
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625
+ 20
+5.125
+ 30
+-0.5775
+ 11
+0.0625
+ 21
+1.2665158092888
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+597
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625
+ 20
+1.2665158092888
+ 30
+-0.5775
+ 11
+0.3043410348370479
+ 21
+0.8408755879755956
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+ARC
+  5
+598
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+0.2499999999999999
+ 20
+0.8100000000000003
+ 30
+-0.5775
+ 40
+0.0625
+100
+AcDbArc
+ 50
+0.0
+ 51
+29.60445074600478
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+1000
+reversed:1
+  0
+ARC
+  5
+599
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+1.060000000000001
+ 20
+0.8099999999999999
+ 30
+-0.5775
+ 40
+0.7475000000000006
+100
+AcDbArc
+ 50
+180.0
+ 51
+269.9999999999999
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+59A
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+1.059999999999999
+ 20
+0.0624999999999993
+ 30
+-0.5775
+ 11
+11.31500000000002
+ 21
+0.0624999999999999
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+ARC
+  5
+59B
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+11.31500000000002
+ 20
+0.8099999999999987
+ 30
+-0.5775
+ 40
+0.7474999999999988
+100
+AcDbArc
+ 50
+270.0
+ 51
+0.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+59C
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+12.06250000000002
+ 20
+0.809999999999999
+ 30
+-0.5775
+ 11
+12.06250000000002
+ 21
+9.44
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+ARC
+  5
+59D
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+11.31500000000002
+ 20
+9.44
+ 30
+-0.5775
+ 40
+0.7475000000000004
+100
+AcDbArc
+ 50
+0.0
+ 51
+89.99999999999987
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+59E
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+11.31500000000002
+ 20
+10.1875
+ 30
+-0.5775
+ 11
+1.06
+ 21
+10.1875
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+ARC
+  5
+59F
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+1.06
+ 20
+9.439999999999998
+ 30
+-0.5775
+ 40
+0.7475000000000012
+100
+AcDbArc
+ 50
+90.00000000000004
+ 51
+180.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+ARC
+  5
+5A0
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+0.2499999999999997
+ 20
+9.44
+ 30
+-0.5775
+ 40
+0.0624999999999996
+100
+AcDbArc
+ 50
+330.395549253995
+ 51
+0.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+1000
+reversed:1
+  0
+LINE
+  5
+5A1
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.3043410348370473
+ 20
+9.409124412024404
+ 30
+-0.5775
+ 11
+0.0625000000000001
+ 21
+8.9834841907112
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5A2
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625000000000001
+ 20
+8.9834841907112
+ 30
+-0.5775
+ 11
+0.0625
+ 21
+5.125
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5A3
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625
+ 20
+5.125
+ 30
+-0.5775
+ 11
+0.0625
+ 21
+4.125
+ 31
+-0.5775
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamOvercutOut:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+ARC
+  5
+5A4
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+0.28125
+ 20
+4.125
+ 30
+-0.5775
+ 40
+0.21875
+100
+AcDbArc
+ 50
+180.0
+ 51
+0.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamLeadOut:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:3
+1000
+CamZPassIndex:2
+1000
+CamZPasses:4
+  0
+ARC
+  5
+5A5
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+0.25
+ 20
+6.125
+ 30
+-0.77
+ 40
+0.25
+100
+AcDbArc
+ 50
+0.0
+ 51
+180.0
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamCompensationOn:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamLeadIn:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5A6
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+6.125
+ 30
+-0.77
+ 11
+0.0
+ 21
+5.125
+ 31
+-0.77
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamOvercutIn:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5A7
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+5.125
+ 30
+-0.77
+ 11
+0.0
+ 21
+1.25
+ 31
+-0.77
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamFirst:1
+1000
+CamFirstSegment:1
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5A8
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+1.25
+ 30
+-0.77
+ 11
+0.2499999999999999
+ 21
+0.8100000000000002
+ 31
+-0.77
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+ARC
+  5
+5A9
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+1.06
+ 20
+0.8099999999999997
+ 30
+-0.77
+ 40
+0.8100000000000004
+100
+AcDbArc
+ 50
+180.0
+ 51
+269.9999999999999
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5AA
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+1.059999999999999
+ 20
+-0.0000000000000004
+ 30
+-0.77
+ 11
+11.31500000000002
+ 21
+-0.0000000000000001
+ 31
+-0.77
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+ARC
+  5
+5AB
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+11.31500000000002
+ 20
+0.8099999999999987
+ 30
+-0.77
+ 40
+0.8099999999999987
+100
+AcDbArc
+ 50
+270.0
+ 51
+0.0
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5AC
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+12.12500000000002
+ 20
+0.8099999999999987
+ 30
+-0.77
+ 11
+12.12500000000002
+ 21
+9.44
+ 31
+-0.77
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+ARC
+  5
+5AD
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+11.31500000000002
+ 20
+9.439999999999998
+ 30
+-0.77
+ 40
+0.8100000000000023
+100
+AcDbArc
+ 50
+0.0
+ 51
+89.99999999999976
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5AE
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+11.31500000000002
+ 20
+10.25
+ 30
+-0.77
+ 11
+1.06
+ 21
+10.25
+ 31
+-0.77
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+ARC
+  5
+5AF
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+1.060000000000001
+ 20
+9.439999999999998
+ 30
+-0.77
+ 40
+0.8100000000000014
+100
+AcDbArc
+ 50
+90.00000000000006
+ 51
+180.0
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5B0
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.2499999999999996
+ 20
+9.439999999999998
+ 30
+-0.77
+ 11
+0.0
+ 21
+9.0
+ 31
+-0.77
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5B1
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+9.0
+ 30
+-0.77
+ 11
+0.0
+ 21
+5.125
+ 31
+-0.77
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLast:1
+1000
+CamLastContour:1
+1000
+CamLastSegment:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5B2
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.0
+ 20
+5.125
+ 30
+-0.77
+ 11
+0.0
+ 21
+4.125
+ 31
+-0.77
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamNotOffset:1
+1000
+CamOvercutOut:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+ARC
+  5
+5B3
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbCircle
+ 10
+0.25
+ 20
+4.125
+ 30
+-0.77
+ 40
+0.25
+100
+AcDbArc
+ 50
+180.0
+ 51
+0.0
+1001
+QCAD
+1000
+CamClosedContour:1
+1000
+CamCompensationOff:1
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamIgnore:1
+1000
+CamLastContour:1
+1000
+CamLeadOut:1
+1000
+CamNotOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5B4
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.5
+ 20
+4.125
+ 30
+-0.5775
+ 11
+0.5
+ 21
+4.125
+ 31
+0.75
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamToolUp:1
+1000
+CamZClearancePass:0.75
+1000
+CamZMove:1
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5B5
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... rapid
+100
+AcDbLine
+ 10
+0.5
+ 20
+4.125
+ 30
+0.75
+ 11
+0.5
+ 21
+6.125
+ 31
+0.75
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamRapidMove:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5B6
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... rapid
+100
+AcDbLine
+ 10
+0.5
+ 20
+6.125
+ 30
+0.75
+ 11
+0.5
+ 21
+6.125
+ 31
+0.75
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamRapidMove:1
+1000
+CamTool:yyy
+1000
+CamToolDownClearance:1
+1000
+CamZClearancePass:0.75
+1000
+CamZMove:1
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5B7
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... rapid
+100
+AcDbLine
+ 10
+0.5
+ 20
+6.125
+ 30
+0.75
+ 11
+0.5
+ 21
+6.125
+ 31
+0.75
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamRapidMove:1
+1000
+CamTool:yyy
+1000
+CamToolDownClearancePass:1
+1000
+CamZClearancePass:0.75
+1000
+CamZMove:1
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5B8
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.5
+ 20
+6.125
+ 30
+0.75
+ 11
+0.5
+ 21
+6.125
+ 31
+-0.77
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamDirection:1
+1000
+CamFeedRate:5
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamToolDown:1
+1000
+CamZClearancePass:0.75
+1000
+CamZMove:1
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+ARC
+  5
+5B9
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+0.28125
+ 20
+6.125
+ 30
+-0.77
+ 40
+0.21875
+100
+AcDbArc
+ 50
+0.0
+ 51
+180.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamLeadIn:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5BA
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625
+ 20
+6.125
+ 30
+-0.77
+ 11
+0.0625
+ 21
+5.125
+ 31
+-0.77
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamOvercutIn:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5BB
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625
+ 20
+5.125
+ 30
+-0.77
+ 11
+0.0625
+ 21
+1.2665158092888
+ 31
+-0.77
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5BC
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625
+ 20
+1.2665158092888
+ 30
+-0.77
+ 11
+0.3043410348370479
+ 21
+0.8408755879755956
+ 31
+-0.77
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+ARC
+  5
+5BD
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+0.2499999999999999
+ 20
+0.8100000000000003
+ 30
+-0.77
+ 40
+0.0625
+100
+AcDbArc
+ 50
+0.0
+ 51
+29.60445074600478
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+1000
+reversed:1
+  0
+ARC
+  5
+5BE
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+1.060000000000001
+ 20
+0.8099999999999999
+ 30
+-0.77
+ 40
+0.7475000000000006
+100
+AcDbArc
+ 50
+180.0
+ 51
+269.9999999999999
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5BF
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+1.059999999999999
+ 20
+0.0624999999999993
+ 30
+-0.77
+ 11
+11.31500000000002
+ 21
+0.0624999999999999
+ 31
+-0.77
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+ARC
+  5
+5C0
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+11.31500000000002
+ 20
+0.8099999999999987
+ 30
+-0.77
+ 40
+0.7474999999999988
+100
+AcDbArc
+ 50
+270.0
+ 51
+0.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5C1
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+12.06250000000002
+ 20
+0.809999999999999
+ 30
+-0.77
+ 11
+12.06250000000002
+ 21
+9.44
+ 31
+-0.77
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+ARC
+  5
+5C2
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+11.31500000000002
+ 20
+9.44
+ 30
+-0.77
+ 40
+0.7475000000000004
+100
+AcDbArc
+ 50
+0.0
+ 51
+89.99999999999987
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5C3
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+11.31500000000002
+ 20
+10.1875
+ 30
+-0.77
+ 11
+1.06
+ 21
+10.1875
+ 31
+-0.77
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+ARC
+  5
+5C4
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+1.06
+ 20
+9.439999999999998
+ 30
+-0.77
+ 40
+0.7475000000000012
+100
+AcDbArc
+ 50
+90.00000000000004
+ 51
+180.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+ARC
+  5
+5C5
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+0.2499999999999997
+ 20
+9.44
+ 30
+-0.77
+ 40
+0.0624999999999996
+100
+AcDbArc
+ 50
+330.395549253995
+ 51
+0.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+1000
+reversed:1
+  0
+LINE
+  5
+5C6
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.3043410348370473
+ 20
+9.409124412024404
+ 30
+-0.77
+ 11
+0.0625000000000001
+ 21
+8.9834841907112
+ 31
+-0.77
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5C7
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625000000000001
+ 20
+8.9834841907112
+ 30
+-0.77
+ 11
+0.0625
+ 21
+5.125
+ 31
+-0.77
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5C8
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbLine
+ 10
+0.0625
+ 20
+5.125
+ 30
+-0.77
+ 11
+0.0625
+ 21
+4.125
+ 31
+-0.77
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamOffset:1
+1000
+CamOvercutOut:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+ARC
+  5
+5C9
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... offset
+100
+AcDbCircle
+ 10
+0.28125
+ 20
+4.125
+ 30
+-0.77
+ 40
+0.21875
+100
+AcDbArc
+ 50
+180.0
+ 51
+0.0
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamCuttingContour:1
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamLeadOut:1
+1000
+CamOffset:1
+1000
+CamTool:yyy
+1000
+CamZClearancePass:0.75
+1000
+CamZPass:4
+1000
+CamZPassIndex:3
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5CA
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... normal
+100
+AcDbLine
+ 10
+0.5
+ 20
+4.125
+ 30
+-0.77
+ 11
+0.5
+ 21
+4.125
+ 31
+0.75
+1001
+QCAD
+1000
+CamContourIndex:0
+1000
+CamDirection:1
+1000
+CamFeedRate:10
+1000
+CamLastContour:1
+1000
+CamTool:yyy
+1000
+CamToolUp:1
+1000
+CamZMove:1
+1000
+CamZPasses:4
+  0
+LINE
+  5
+5CB
+330
+6C3
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN ... rapid
+100
+AcDbLine
+ 10
+0.5
+ 20
+4.125
+ 30
+0.75
+ 11
+0.5
+ 21
+4.125
+ 31
+2.0
+1001
+QCAD
+1000
+CamRapidMove:1
+1000
+CamRapidMoveToSafety:1
+1000
+CamZMove:1
+  0
+ENDBLK
+  5
+6C5
+330
+6C3
+100
+AcDbEntity
   8
 0
 100
@@ -3957,11 +12251,11 @@ SECTION
   2
 ENTITIES
   0
-LINE
+LWPOLYLINE
   5
-83
+49D
 330
-1BA
+5E9
 100
 AcDbEntity
   8
@@ -3969,265 +12263,91 @@ Cutout
   6
 Continuous
 100
-AcDbLine
+AcDbPolyline
+ 90
+       11
+ 70
+   129
+ 43
+0.0
  10
 0.0
  20
-9.0
- 30
-0.0
- 11
-0.0
- 21
-1.25
- 31
-0.0
-  0
-LINE
-  5
-84
-330
-1BA
-100
-AcDbEntity
-  8
-Cutout
-  6
-Continuous
-100
-AcDbLine
- 10
-12.12500000000002
- 20
-0.81
- 30
-0.0
- 11
-12.12500000000002
- 21
-9.44
- 31
-0.0
-  0
-LINE
-  5
-85
-330
-1BA
-100
-AcDbEntity
-  8
-Cutout
-  6
-Continuous
-100
-AcDbLine
- 10
-1.06
- 20
-0.0
- 30
-0.0
- 11
-11.31500000000002
- 21
-0.0
- 31
-0.0
-  0
-LINE
-  5
-86
-330
-1BA
-100
-AcDbEntity
-  8
-Cutout
-  6
-Continuous
-100
-AcDbLine
- 10
-11.31500000000002
- 20
-10.25
- 30
-0.0
- 11
-1.06
- 21
-10.25
- 31
-0.0
-  0
-ARC
-  5
-87
-330
-1BA
-100
-AcDbEntity
-  8
-Cutout
-  6
-Continuous
-100
-AcDbCircle
- 10
-1.06
- 20
-9.44
- 30
-0.0
- 40
-0.8100000000000002
-100
-AcDbArc
- 50
-90.0
- 51
-180.0
-  0
-ARC
-  5
-88
-330
-1BA
-100
-AcDbEntity
-  8
-Cutout
-  6
-Continuous
-100
-AcDbCircle
- 10
-1.06
- 20
-0.81
- 30
-0.0
- 40
-0.8100000000000002
-100
-AcDbArc
- 50
-180.0
- 51
-270.0
-  0
-ARC
-  5
-89
-330
-1BA
-100
-AcDbEntity
-  8
-Cutout
-  6
-Continuous
-100
-AcDbCircle
- 10
-11.31500000000002
- 20
-0.81
- 30
-0.0
- 40
-0.8100000000000002
-100
-AcDbArc
- 50
-270.0
- 51
-0.0
-  0
-ARC
-  5
-8A
-330
-1BA
-100
-AcDbEntity
-  8
-Cutout
-  6
-Continuous
-100
-AcDbCircle
- 10
-11.31500000000002
- 20
-9.44
- 30
-0.0
- 40
-0.8100000000000002
-100
-AcDbArc
- 50
-0.0
- 51
-90.0
-  0
-LINE
-  5
-8E
-330
-1BA
-100
-AcDbEntity
-  8
-Cutout
-  6
-Continuous
-100
-AcDbLine
+5.125
  10
 0.0
  20
 1.25
- 30
-0.0
- 11
-0.2500000000000009
- 21
-0.81
- 31
-0.0
-  0
-LINE
-  5
-19C
-330
-1BA
-100
-AcDbEntity
-  8
-Cutout
-100
-AcDbLine
  10
-0.0
- 20
-9.0
- 30
-0.0
- 11
 0.2499999999999999
- 21
+ 20
+0.8100000000000002
+ 42
+0.4142135623730948
+ 10
+1.059999999999999
+ 20
+-0.0000000000000004
+ 10
+11.31500000000002
+ 20
+-0.0000000000000001
+ 42
+0.414213562373095
+ 10
+12.12500000000002
+ 20
+0.8099999999999987
+ 10
+12.12500000000002
+ 20
 9.44
- 31
+ 42
+0.4142135623730938
+ 10
+11.31500000000002
+ 20
+10.25
+ 10
+1.06
+ 20
+10.25
+ 42
+0.414213562373095
+ 10
+0.2499999999999996
+ 20
+9.439999999999998
+ 10
+0.0
+ 20
+9.0
+  0
+INSERT
+  5
+535
+330
+5E9
+100
+AcDbEntity
+  8
+CAM ... GCodeOffsetIN
+100
+AcDbBlockReference
+  2
+CAMTOOLPATH$$GCodeOffsetIN$$Profile 1
+ 10
+0.0
+ 20
+0.0
+ 30
 0.0
   0
 VIEWPORT
   5
-266
+6BB
 330
-1B6
+5E5
 100
 AcDbEntity
  67
@@ -4329,7 +12449,7 @@ AcDbViewport
  61
      5
 348
-1CA
+5F9
 292
      1
 282
@@ -4341,7 +12461,7 @@ AcDbViewport
  63
    256
 361
-267
+6BC
   0
 ENDSEC
   0
@@ -4351,7 +12471,7 @@ OBJECTS
   0
 DICTIONARY
   5
-1A8
+5D7
 330
 0
 100
@@ -4361,69 +12481,69 @@ AcDbDictionary
   3
 ACAD_DETAILVIEWSTYLE
 350
-26F
+6CD
   3
 ACAD_GROUP
 350
-1A9
+5D8
   3
 ACAD_LAYOUT
 350
-1B5
+5E4
   3
 ACAD_MATERIAL
 350
-1DE
+60D
   3
 ACAD_MLEADERSTYLE
 350
-1F6
+625
   3
 ACAD_MLINESTYLE
 350
-1B2
+5E1
   3
 ACAD_PLOTSETTINGS
 350
-1B4
+5E3
   3
 ACAD_PLOTSTYLENAME
 350
-1AA
+5D9
   3
 ACAD_SCALELIST
 350
-1E2
+611
   3
 ACAD_SECTIONVIEWSTYLE
 350
-270
+6CE
   3
 ACAD_TABLESTYLE
 350
-1F4
+623
   3
 ACAD_VISUALSTYLE
 350
-1C5
+5F4
   3
 ACDB_RECOMPOSE_DATA
 350
-26C
+6CA
   3
 AcDbVariableDictionary
 350
-268
+6C6
   3
 QCAD_OBJECTS
 350
-1FA
+629
   0
 SUN
   5
-1F8
+627
 330
-1C4
+5F3
 100
 AcDbSun
  90
@@ -4453,9 +12573,9 @@ AcDbSun
   0
 SUN
   5
-267
+6BC
 330
-266
+6BB
 100
 AcDbSun
  90
@@ -4485,15 +12605,15 @@ AcDbSun
   0
 DICTIONARY
   5
-26F
+6CD
 102
 {ACAD_REACTORS
 330
-1A8
+5D7
 102
 }
 330
-1A8
+5D7
 100
 AcDbDictionary
 281
@@ -4501,15 +12621,15 @@ AcDbDictionary
   0
 DICTIONARY
   5
-1A9
+5D8
 102
 {ACAD_REACTORS
 330
-1A8
+5D7
 102
 }
 330
-1A8
+5D7
 100
 AcDbDictionary
 281
@@ -4517,15 +12637,15 @@ AcDbDictionary
   0
 DICTIONARY
   5
-1B5
+5E4
 102
 {ACAD_REACTORS
 330
-1A8
+5D7
 102
 }
 330
-1A8
+5D7
 100
 AcDbDictionary
 281
@@ -4533,23 +12653,23 @@ AcDbDictionary
   3
 Layout1
 350
-1B9
+5E8
   3
 Model
 350
-1BD
+5EC
   0
 DICTIONARY
   5
-1DE
+60D
 102
 {ACAD_REACTORS
 330
-1A8
+5D7
 102
 }
 330
-1A8
+5D7
 100
 AcDbDictionary
 281
@@ -4557,27 +12677,27 @@ AcDbDictionary
   3
 ByBlock
 350
-1E0
+60F
   3
 ByLayer
 350
-1DF
+60E
   3
 Global
 350
-1E1
+610
   0
 DICTIONARY
   5
-1F6
+625
 102
 {ACAD_REACTORS
 330
-1A8
+5D7
 102
 }
 330
-1A8
+5D7
 100
 AcDbDictionary
 281
@@ -4585,19 +12705,19 @@ AcDbDictionary
   3
 Standard
 350
-1F7
+626
   0
 DICTIONARY
   5
-1B2
+5E1
 102
 {ACAD_REACTORS
 330
-1A8
+5D7
 102
 }
 330
-1A8
+5D7
 100
 AcDbDictionary
 281
@@ -4605,19 +12725,19 @@ AcDbDictionary
   3
 Standard
 350
-1B3
+5E2
   0
 DICTIONARY
   5
-1B4
+5E3
 102
 {ACAD_REACTORS
 330
-1A8
+5D7
 102
 }
 330
-1A8
+5D7
 100
 AcDbDictionary
 281
@@ -4625,15 +12745,15 @@ AcDbDictionary
   0
 ACDBDICTIONARYWDFLT
   5
-1AA
+5D9
 102
 {ACAD_REACTORS
 330
-1A8
+5D7
 102
 }
 330
-1A8
+5D7
 100
 AcDbDictionary
 281
@@ -4641,23 +12761,23 @@ AcDbDictionary
   3
 Normal
 350
-1AB
+5DA
 100
 AcDbDictionaryWithDefault
 340
-1AB
+5DA
   0
 DICTIONARY
   5
-1E2
+611
 102
 {ACAD_REACTORS
 330
-1A8
+5D7
 102
 }
 330
-1A8
+5D7
 100
 AcDbDictionary
 281
@@ -4665,83 +12785,83 @@ AcDbDictionary
   3
 A0
 350
-1E3
+612
   3
 A1
 350
-1E4
+613
   3
 A2
 350
-1E5
+614
   3
 A3
 350
-1E6
+615
   3
 A4
 350
-1E7
+616
   3
 A5
 350
-1E8
+617
   3
 A6
 350
-1E9
+618
   3
 A7
 350
-1EA
+619
   3
 A8
 350
-1EB
+61A
   3
 A9
 350
-1EC
+61B
   3
 B1
 350
-1ED
+61C
   3
 B2
 350
-1EE
+61D
   3
 B3
 350
-1EF
+61E
   3
 B4
 350
-1F0
+61F
   3
 B5
 350
-1F1
+620
   3
 B6
 350
-1F2
+621
   3
 B7
 350
-1F3
+622
   0
 DICTIONARY
   5
-270
+6CE
 102
 {ACAD_REACTORS
 330
-1A8
+5D7
 102
 }
 330
-1A8
+5D7
 100
 AcDbDictionary
 281
@@ -4749,15 +12869,15 @@ AcDbDictionary
   0
 DICTIONARY
   5
-1F4
+623
 102
 {ACAD_REACTORS
 330
-1A8
+5D7
 102
 }
 330
-1A8
+5D7
 100
 AcDbDictionary
 281
@@ -4765,19 +12885,19 @@ AcDbDictionary
   3
 Standard
 350
-1F5
+624
   0
 DICTIONARY
   5
-1C5
+5F4
 102
 {ACAD_REACTORS
 330
-1A8
+5D7
 102
 }
 330
-1A8
+5D7
 100
 AcDbDictionary
 281
@@ -4785,111 +12905,111 @@ AcDbDictionary
   3
 2dWireframe
 350
-1CA
+5F9
   3
 Basic
 350
-1CD
+5FC
   3
 Brighten
 350
-1D1
+600
   3
 ColorChange
 350
-1D5
+604
   3
 Conceptual
 350
-1CF
+5FE
   3
 Dim
 350
-1D0
+5FF
   3
 EdgeColorOff
 350
-1D8
+607
   3
 Facepattern
 350
-1D4
+603
   3
 Flat
 350
-1C6
+5F5
   3
 FlatWithEdges
 350
-1C7
+5F6
   3
 Gouraud
 350
-1C8
+5F7
   3
 GouraudWithEdges
 350
-1C9
+5F8
   3
 Hidden
 350
-1CC
+5FB
   3
 JitterOff
 350
-1D6
+605
   3
 Linepattern
 350
-1D3
+602
   3
 OverhangOff
 350
-1D7
+606
   3
 Realistic
 350
-1CE
+5FD
   3
 Shaded
 350
-1DD
+60C
   3
 Shaded with edges
 350
-1DC
+60B
   3
 Shades of Gray
 350
-1D9
+608
   3
 Sketchy
 350
-1DA
+609
   3
 Thicken
 350
-1D2
+601
   3
 Wireframe
 350
-1CB
+5FA
   3
 X-Ray
 350
-1DB
+60A
   0
 XRECORD
   5
-26C
+6CA
 102
 {ACAD_REACTORS
 330
-1A8
+5D7
 102
 }
 330
-1A8
+5D7
 100
 AcDbXrecord
 280
@@ -4897,19 +13017,19 @@ AcDbXrecord
  90
         1
 330
-1F5
+624
   0
 DICTIONARY
   5
-268
+6C6
 102
 {ACAD_REACTORS
 330
-1A8
+5D7
 102
 }
 330
-1A8
+5D7
 100
 AcDbDictionary
 281
@@ -4917,255 +13037,363 @@ AcDbDictionary
   3
 CANNOSCALE
 350
-269
+6C7
   3
 CMLEADERSTYLE
 350
-26E
+6CC
   3
 CTABLESTYLE
 350
-26D
+6CB
   0
 DICTIONARY
   5
-1FA
+629
 102
 {ACAD_REACTORS
 330
-1A8
+5D7
 102
 }
 330
-1A8
+5D7
 100
 AcDbDictionary
 281
      1
   3
+Cam/GCodeOffsetIN/AlwaysWriteG1
+350
+62B
+  3
+Cam/GCodeOffsetIN/CamArcInterpolation
+350
+62C
+  3
+Cam/GCodeOffsetIN/CamArcSegmentLength
+350
+62D
+  3
+Cam/GCodeOffsetIN/CamAutoRegenerateToolpaths
+350
+62E
+  3
+Cam/GCodeOffsetIN/CamEllipseSegments
+350
+62F
+  3
+Cam/GCodeOffsetIN/CamHomeX
+350
+630
+  3
+Cam/GCodeOffsetIN/CamHomeY
+350
+631
+  3
+Cam/GCodeOffsetIN/CamProgramName
+350
+632
+  3
+Cam/GCodeOffsetIN/CamSplineMaxRadius
+350
+633
+  3
+Cam/GCodeOffsetIN/CamSplineTolerance
+350
+634
+  3
+Cam/GCodeOffsetIN/CamTolerance
+350
+635
+  3
+Cam/GCodeOffsetIN/CamZSafety
+350
+636
+  3
+Cam/GCodeOffsetMM/AlwaysWriteG1
+350
+637
+  3
+Cam/GCodeOffsetMM/CamArcInterpolation
+350
+638
+  3
+Cam/GCodeOffsetMM/CamArcSegmentLength
+350
+639
+  3
+Cam/GCodeOffsetMM/CamAutoRegenerateToolpaths
+350
+63A
+  3
+Cam/GCodeOffsetMM/CamEllipseSegments
+350
+63B
+  3
+Cam/GCodeOffsetMM/CamHomeX
+350
+63C
+  3
+Cam/GCodeOffsetMM/CamHomeY
+350
+63D
+  3
+Cam/GCodeOffsetMM/CamProgramName
+350
+63E
+  3
+Cam/GCodeOffsetMM/CamSplineMaxRadius
+350
+63F
+  3
+Cam/GCodeOffsetMM/CamSplineTolerance
+350
+640
+  3
+Cam/GCodeOffsetMM/CamTolerance
+350
+641
+  3
+Cam/GCodeOffsetMM/CamZSafety
+350
+642
+  3
+CamExport/ConfigV2
+350
+643
+  3
+CamExport/GCodeOffsetIN/Output
+350
+644
+  3
+CamExport/GCodeOffsetMM/Output
+350
+645
+  3
 ColorSettings/BackgroundColor
 350
-1FC
+646
   3
 ColorSettings/ColorMode
 350
-1FD
+647
   3
 Grid/DisplayGrid00
 350
-1FE
+648
   3
 Grid/DisplayGrid01
 350
-1FF
+649
   3
 Grid/DisplayGrid02
 350
-200
+64A
   3
 Grid/DisplayGrid03
 350
-201
+64B
   3
 Grid/GridSpacingX00
 350
-202
+64C
   3
 Grid/GridSpacingX01
 350
-203
+64D
   3
 Grid/GridSpacingX02
 350
-204
+64E
   3
 Grid/GridSpacingX03
 350
-205
+64F
   3
 Grid/GridSpacingY00
 350
-206
+650
   3
 Grid/GridSpacingY01
 350
-207
+651
   3
 Grid/GridSpacingY02
 350
-208
+652
   3
 Grid/GridSpacingY03
 350
-209
+653
   3
 Grid/IsometricGrid00
 350
-20A
+654
   3
 Grid/IsometricGrid01
 350
-20B
+655
   3
 Grid/IsometricGrid02
 350
-20C
+656
   3
 Grid/IsometricGrid03
 350
-20D
+657
   3
 Grid/IsometricProjection00
 350
-20E
+658
   3
 Grid/IsometricProjection01
 350
-20F
+659
   3
 Grid/IsometricProjection02
 350
-210
+65A
   3
 Grid/IsometricProjection03
 350
-211
+65B
   3
 Grid/MetaGridSpacingX00
 350
-212
+65C
   3
 Grid/MetaGridSpacingX01
 350
-213
+65D
   3
 Grid/MetaGridSpacingX02
 350
-214
+65E
   3
 Grid/MetaGridSpacingX03
 350
-215
+65F
   3
 Grid/MetaGridSpacingY00
 350
-216
+660
   3
 Grid/MetaGridSpacingY01
 350
-217
+661
   3
 Grid/MetaGridSpacingY02
 350
-218
+662
   3
 Grid/MetaGridSpacingY03
 350
-219
+663
   3
 MultiPageSettings/Columns
 350
-21A
+664
   3
 MultiPageSettings/GlueMarginsBottom
 350
-21B
+665
   3
 MultiPageSettings/GlueMarginsLeft
 350
-21C
+666
   3
 MultiPageSettings/GlueMarginsRight
 350
-21D
+667
   3
 MultiPageSettings/GlueMarginsTop
 350
-21E
+668
   3
 MultiPageSettings/PrintCropMarks
 350
-21F
+669
   3
 MultiPageSettings/Rows
 350
-220
+66A
   3
 PageSettings/OffsetX
 350
-221
+66B
   3
 PageSettings/OffsetY
 350
-222
+66C
   3
 PageSettings/PageOrientation
 350
-223
+66D
   3
 PageSettings/PaperHeight
 350
-224
+66E
   3
 PageSettings/PaperWidth
 350
-225
+66F
   3
 PageSettings/Scale
 350
-226
+670
   3
 PageSettings/ShowPaperBorders
 350
-227
+671
   3
 PageTagSettings/EnablePageTags
 350
-228
+672
   3
 PageTagSettings/TagAlignment
 350
-229
+673
   3
 PageTagSettings/TagFont
 350
-22A
+674
   3
 PageTagSettings/TagPosition
 350
-22B
+675
   3
 QCADVersion
 350
-22C
+676
   3
 UnitSettings/PaperUnit
 350
-22D
+677
   3
 ViewportCenter
 350
-22E
+678
   3
 ViewportHeight
 350
-22F
+679
   3
 ViewportWidth
 350
-230
+67A
   0
 LAYOUT
   5
-1B9
+5E8
 102
 {ACAD_REACTORS
 330
-1B5
+5E4
 102
 }
 330
-1B5
+5E4
 100
 AcDbPlotSettings
   1
@@ -5285,21 +13513,21 @@ Layout1
  76
      0
 330
-1B6
+5E5
 331
-266
+6BB
   0
 LAYOUT
   5
-1BD
+5EC
 102
 {ACAD_REACTORS
 330
-1B5
+5E4
 102
 }
 330
-1B5
+5E4
 100
 AcDbPlotSettings
   1
@@ -5387,15 +13615,15 @@ Model
  14
 0.0
  24
--0.0000000000000001
+-0.0000000000000007
  34
-0.0
+-0.77
  15
 12.12500000000002
  25
 10.25
  35
-0.0
+2.0
 146
 0.0
  13
@@ -5419,21 +13647,21 @@ Model
  76
      0
 330
-1BA
+5E9
 331
-1C4
+5F3
   0
 MATERIAL
   5
-1E0
+60F
 102
 {ACAD_REACTORS
 330
-1DE
+60D
 102
 }
 330
-1DE
+60D
 100
 AcDbMaterial
   1
@@ -5445,15 +13673,15 @@ ByBlock
   0
 MATERIAL
   5
-1DF
+60E
 102
 {ACAD_REACTORS
 330
-1DE
+60D
 102
 }
 330
-1DE
+60D
 100
 AcDbMaterial
   1
@@ -5465,15 +13693,15 @@ ByLayer
   0
 MATERIAL
   5
-1E1
+610
 102
 {ACAD_REACTORS
 330
-1DE
+60D
 102
 }
 330
-1DE
+60D
 100
 AcDbMaterial
   1
@@ -5485,15 +13713,15 @@ Global
   0
 MLEADERSTYLE
   5
-1F7
+626
 102
 {ACAD_REACTORS
 330
-1F6
+625
 102
 }
 330
-1F6
+625
 100
 AcDbMLeaderStyle
 179
@@ -5515,7 +13743,7 @@ AcDbMLeaderStyle
  91
 -1056964608
 340
-1AF
+5DE
  92
        -2
 290
@@ -5535,7 +13763,7 @@ Standard
 300
 
 342
-1AD
+5DC
 174
      1
 178
@@ -5591,15 +13819,15 @@ Standard
   0
 MLINESTYLE
   5
-1B3
+5E2
 102
 {ACAD_REACTORS
 330
-1B2
+5E1
 102
 }
 330
-1B2
+5E1
 100
 AcDbMlineStyle
   2
@@ -5631,27 +13859,27 @@ BYLAYER
   0
 ACDBPLACEHOLDER
   5
-1AB
+5DA
 102
 {ACAD_REACTORS
 330
-1AA
+5D9
 102
 }
 330
-1AA
+5D9
   0
 SCALE
   5
-1E3
+612
 102
 {ACAD_REACTORS
 330
-1E2
+611
 102
 }
 330
-1E2
+611
 100
 AcDbScale
  70
@@ -5667,15 +13895,15 @@ AcDbScale
   0
 SCALE
   5
-1E4
+613
 102
 {ACAD_REACTORS
 330
-1E2
+611
 102
 }
 330
-1E2
+611
 100
 AcDbScale
  70
@@ -5691,15 +13919,15 @@ AcDbScale
   0
 SCALE
   5
-1E5
+614
 102
 {ACAD_REACTORS
 330
-1E2
+611
 102
 }
 330
-1E2
+611
 100
 AcDbScale
  70
@@ -5715,15 +13943,15 @@ AcDbScale
   0
 SCALE
   5
-1E6
+615
 102
 {ACAD_REACTORS
 330
-1E2
+611
 102
 }
 330
-1E2
+611
 100
 AcDbScale
  70
@@ -5739,15 +13967,15 @@ AcDbScale
   0
 SCALE
   5
-1E7
+616
 102
 {ACAD_REACTORS
 330
-1E2
+611
 102
 }
 330
-1E2
+611
 100
 AcDbScale
  70
@@ -5763,15 +13991,15 @@ AcDbScale
   0
 SCALE
   5
-1E8
+617
 102
 {ACAD_REACTORS
 330
-1E2
+611
 102
 }
 330
-1E2
+611
 100
 AcDbScale
  70
@@ -5787,15 +14015,15 @@ AcDbScale
   0
 SCALE
   5
-1E9
+618
 102
 {ACAD_REACTORS
 330
-1E2
+611
 102
 }
 330
-1E2
+611
 100
 AcDbScale
  70
@@ -5811,15 +14039,15 @@ AcDbScale
   0
 SCALE
   5
-1EA
+619
 102
 {ACAD_REACTORS
 330
-1E2
+611
 102
 }
 330
-1E2
+611
 100
 AcDbScale
  70
@@ -5835,15 +14063,15 @@ AcDbScale
   0
 SCALE
   5
-1EB
+61A
 102
 {ACAD_REACTORS
 330
-1E2
+611
 102
 }
 330
-1E2
+611
 100
 AcDbScale
  70
@@ -5859,15 +14087,15 @@ AcDbScale
   0
 SCALE
   5
-1EC
+61B
 102
 {ACAD_REACTORS
 330
-1E2
+611
 102
 }
 330
-1E2
+611
 100
 AcDbScale
  70
@@ -5883,15 +14111,15 @@ AcDbScale
   0
 SCALE
   5
-1ED
+61C
 102
 {ACAD_REACTORS
 330
-1E2
+611
 102
 }
 330
-1E2
+611
 100
 AcDbScale
  70
@@ -5907,15 +14135,15 @@ AcDbScale
   0
 SCALE
   5
-1EE
+61D
 102
 {ACAD_REACTORS
 330
-1E2
+611
 102
 }
 330
-1E2
+611
 100
 AcDbScale
  70
@@ -5931,15 +14159,15 @@ AcDbScale
   0
 SCALE
   5
-1EF
+61E
 102
 {ACAD_REACTORS
 330
-1E2
+611
 102
 }
 330
-1E2
+611
 100
 AcDbScale
  70
@@ -5955,15 +14183,15 @@ AcDbScale
   0
 SCALE
   5
-1F0
+61F
 102
 {ACAD_REACTORS
 330
-1E2
+611
 102
 }
 330
-1E2
+611
 100
 AcDbScale
  70
@@ -5979,15 +14207,15 @@ AcDbScale
   0
 SCALE
   5
-1F1
+620
 102
 {ACAD_REACTORS
 330
-1E2
+611
 102
 }
 330
-1E2
+611
 100
 AcDbScale
  70
@@ -6003,15 +14231,15 @@ AcDbScale
   0
 SCALE
   5
-1F2
+621
 102
 {ACAD_REACTORS
 330
-1E2
+611
 102
 }
 330
-1E2
+611
 100
 AcDbScale
  70
@@ -6027,15 +14255,15 @@ AcDbScale
   0
 SCALE
   5
-1F3
+622
 102
 {ACAD_REACTORS
 330
-1E2
+611
 102
 }
 330
-1E2
+611
 100
 AcDbScale
  70
@@ -6051,21 +14279,21 @@ AcDbScale
   0
 TABLESTYLE
   5
-1F5
+624
 102
 {ACAD_REACTORS
 330
-1F4
+623
 102
 }
 102
 {ACAD_XDICTIONARY
 360
-26A
+6C8
 102
 }
 330
-1F4
+623
 100
 AcDbTableStyle
   3
@@ -6247,15 +14475,15 @@ Standard
   0
 VISUALSTYLE
   5
-1CA
+5F9
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -6509,15 +14737,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1CD
+5FC
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -6771,15 +14999,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1D1
+600
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -7033,15 +15261,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1D5
+604
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -7297,15 +15525,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1CF
+5FE
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -7559,15 +15787,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1D0
+5FF
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -7821,15 +16049,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1D8
+607
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -8083,15 +16311,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1D4
+603
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -8345,15 +16573,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1C6
+5F5
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -8607,15 +16835,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1C7
+5F6
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -8869,15 +17097,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1C8
+5F7
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -9131,15 +17359,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1C9
+5F8
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -9393,15 +17621,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1CC
+5FB
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -9655,15 +17883,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1D6
+605
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -9917,15 +18145,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1D3
+602
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -10179,15 +18407,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1D7
+606
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -10441,15 +18669,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1CE
+5FD
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -10703,15 +18931,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1DD
+60C
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -10967,15 +19195,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1DC
+60B
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -11229,15 +19457,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1D9
+608
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -11491,15 +19719,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1DA
+609
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -11753,15 +19981,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1D2
+601
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -12015,15 +20243,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1CB
+5FA
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -12277,15 +20505,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-1DB
+60A
 102
 {ACAD_REACTORS
 330
-1C5
+5F4
 102
 }
 330
-1C5
+5F4
 100
 AcDbVisualStyle
   2
@@ -12539,15 +20767,15 @@ strokes_ogs.tif
   0
 DICTIONARYVAR
   5
-269
+6C7
 102
 {ACAD_REACTORS
 330
-268
+6C6
 102
 }
 330
-268
+6C6
 100
 DictionaryVariables
 280
@@ -12557,15 +20785,15 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-26E
+6CC
 102
 {ACAD_REACTORS
 330
-268
+6C6
 102
 }
 330
-268
+6C6
 100
 DictionaryVariables
 280
@@ -12575,15 +20803,15 @@ Standard
   0
 DICTIONARYVAR
   5
-26D
+6CB
 102
 {ACAD_REACTORS
 330
-268
+6C6
 102
 }
 330
-268
+6C6
 100
 DictionaryVariables
 280
@@ -12593,15 +20821,501 @@ Standard
   0
 XRECORD
   5
-1FC
+62B
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
+100
+AcDbXrecord
+280
+     1
+290
+     0
+  0
+XRECORD
+  5
+62C
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+290
+     0
+  0
+XRECORD
+  5
+62D
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+0.1
+  0
+XRECORD
+  5
+62E
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+290
+     1
+  0
+XRECORD
+  5
+62F
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+64
+  0
+XRECORD
+  5
+630
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+0
+  0
+XRECORD
+  5
+631
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+0
+  0
+XRECORD
+  5
+632
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+001
+  0
+XRECORD
+  5
+633
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+2000
+  0
+XRECORD
+  5
+634
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+0.01
+  0
+XRECORD
+  5
+635
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+0.0005
+  0
+XRECORD
+  5
+636
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+2
+  0
+XRECORD
+  5
+637
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+290
+     0
+  0
+XRECORD
+  5
+638
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+290
+     0
+  0
+XRECORD
+  5
+639
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+0.1
+  0
+XRECORD
+  5
+63A
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+290
+     1
+  0
+XRECORD
+  5
+63B
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+64
+  0
+XRECORD
+  5
+63C
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+0
+  0
+XRECORD
+  5
+63D
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+0
+  0
+XRECORD
+  5
+63E
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+coindoor-01
+  0
+XRECORD
+  5
+63F
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+2000
+  0
+XRECORD
+  5
+640
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+0.01
+  0
+XRECORD
+  5
+641
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+0.0005
+  0
+XRECORD
+  5
+642
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+3
+  0
+XRECORD
+  5
+643
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+GCodeOffsetIN
+  0
+XRECORD
+  5
+644
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+coindoor.nc
+  0
+XRECORD
+  5
+645
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
+100
+AcDbXrecord
+280
+     1
+1000
+coindoor.nc
+  0
+XRECORD
+  5
+646
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
 100
 AcDbXrecord
 280
@@ -12611,15 +21325,15 @@ AcDbXrecord
   0
 XRECORD
   5
-1FD
+647
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12629,15 +21343,15 @@ FullColor
   0
 XRECORD
   5
-1FE
+648
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12647,15 +21361,15 @@ AcDbXrecord
   0
 XRECORD
   5
-1FF
+649
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12665,15 +21379,15 @@ AcDbXrecord
   0
 XRECORD
   5
-200
+64A
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12683,15 +21397,15 @@ AcDbXrecord
   0
 XRECORD
   5
-201
+64B
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12701,15 +21415,15 @@ AcDbXrecord
   0
 XRECORD
   5
-202
+64C
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12719,15 +21433,15 @@ auto
   0
 XRECORD
   5
-203
+64D
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12737,15 +21451,15 @@ auto
   0
 XRECORD
   5
-204
+64E
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12755,15 +21469,15 @@ auto
   0
 XRECORD
   5
-205
+64F
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12773,15 +21487,15 @@ auto
   0
 XRECORD
   5
-206
+650
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12791,15 +21505,15 @@ auto
   0
 XRECORD
   5
-207
+651
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12809,15 +21523,15 @@ auto
   0
 XRECORD
   5
-208
+652
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12827,15 +21541,15 @@ auto
   0
 XRECORD
   5
-209
+653
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12845,33 +21559,15 @@ auto
   0
 XRECORD
   5
-20A
+654
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
-100
-AcDbXrecord
-280
-     1
-290
-     0
-  0
-XRECORD
-  5
-20B
-102
-{ACAD_REACTORS
-330
-1FA
-102
-}
-330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12881,15 +21577,15 @@ AcDbXrecord
   0
 XRECORD
   5
-20C
+655
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12899,15 +21595,15 @@ AcDbXrecord
   0
 XRECORD
   5
-20D
+656
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12917,15 +21613,33 @@ AcDbXrecord
   0
 XRECORD
   5
-20E
+657
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
+100
+AcDbXrecord
+280
+     1
+290
+     0
+  0
+XRECORD
+  5
+658
+102
+{ACAD_REACTORS
+330
+629
+102
+}
+330
+629
 100
 AcDbXrecord
 280
@@ -12935,15 +21649,15 @@ AcDbXrecord
   0
 XRECORD
   5
-20F
+659
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12953,15 +21667,15 @@ AcDbXrecord
   0
 XRECORD
   5
-210
+65A
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12971,15 +21685,15 @@ AcDbXrecord
   0
 XRECORD
   5
-211
+65B
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -12989,15 +21703,15 @@ AcDbXrecord
   0
 XRECORD
   5
-212
+65C
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13007,15 +21721,15 @@ auto
   0
 XRECORD
   5
-213
+65D
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13025,15 +21739,15 @@ auto
   0
 XRECORD
   5
-214
+65E
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13043,15 +21757,15 @@ auto
   0
 XRECORD
   5
-215
+65F
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13061,15 +21775,15 @@ auto
   0
 XRECORD
   5
-216
+660
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13079,15 +21793,15 @@ auto
   0
 XRECORD
   5
-217
+661
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13097,15 +21811,15 @@ auto
   0
 XRECORD
   5
-218
+662
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13115,15 +21829,15 @@ auto
   0
 XRECORD
   5
-219
+663
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13133,15 +21847,15 @@ auto
   0
 XRECORD
   5
-21A
+664
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13151,15 +21865,15 @@ AcDbXrecord
   0
 XRECORD
   5
-21B
+665
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13169,15 +21883,15 @@ AcDbXrecord
   0
 XRECORD
   5
-21C
+666
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13187,15 +21901,15 @@ AcDbXrecord
   0
 XRECORD
   5
-21D
+667
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13205,15 +21919,15 @@ AcDbXrecord
   0
 XRECORD
   5
-21E
+668
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13223,15 +21937,15 @@ AcDbXrecord
   0
 XRECORD
   5
-21F
+669
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13241,15 +21955,15 @@ AcDbXrecord
   0
 XRECORD
   5
-220
+66A
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13259,15 +21973,15 @@ AcDbXrecord
   0
 XRECORD
   5
-221
+66B
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13277,15 +21991,15 @@ AcDbXrecord
   0
 XRECORD
   5
-222
+66C
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13295,15 +22009,15 @@ AcDbXrecord
   0
 XRECORD
   5
-223
+66D
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13313,15 +22027,15 @@ Portrait
   0
 XRECORD
   5
-224
+66E
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13331,15 +22045,15 @@ AcDbXrecord
   0
 XRECORD
   5
-225
+66F
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13349,15 +22063,15 @@ AcDbXrecord
   0
 XRECORD
   5
-226
+670
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13367,15 +22081,15 @@ AcDbXrecord
   0
 XRECORD
   5
-227
+671
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13385,15 +22099,15 @@ AcDbXrecord
   0
 XRECORD
   5
-228
+672
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13403,15 +22117,15 @@ AcDbXrecord
   0
 XRECORD
   5
-229
+673
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13421,15 +22135,15 @@ Inside
   0
 XRECORD
   5
-22A
+674
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13439,15 +22153,15 @@ Arial,10,-1,5,50,0,0,0,0,0
   0
 XRECORD
   5
-22B
+675
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13457,33 +22171,33 @@ TopLeft
   0
 XRECORD
   5
-22C
+676
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
      1
 1000
-3.27.8
+3.29.4
   0
 XRECORD
   5
-22D
+677
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13493,15 +22207,15 @@ AcDbXrecord
   0
 XRECORD
   5
-22E
+678
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
@@ -13509,45 +22223,45 @@ AcDbXrecord
   0
 XRECORD
   5
-22F
+679
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
      1
  40
-21.56590914027148
+23.97848022109819
   0
 XRECORD
   5
-230
+67A
 102
 {ACAD_REACTORS
 330
-1FA
+629
 102
 }
 330
-1FA
+629
 100
 AcDbXrecord
 280
      1
  40
-35.17763880542984
+33.44778866350315
   0
 DICTIONARY
   5
-26A
+6C8
 330
-1F5
+624
 100
 AcDbDictionary
 280
@@ -13557,19 +22271,19 @@ AcDbDictionary
   3
 ACAD_ROUNDTRIP_2008_TABLESTYLE_CELLSTYLEMAP
 360
-26B
+6C9
   0
 CELLSTYLEMAP
   5
-26B
+6C9
 102
 {ACAD_REACTORS
 330
-26A
+6C8
 102
 }
 330
-26A
+6C8
 100
 AcDbCellStyleMap
  90
@@ -13613,7 +22327,7 @@ CONTENTFORMAT_BEGIN
  62
      0
 340
-1AD
+5DC
 144
 0.25
 309
@@ -13655,7 +22369,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
@@ -13677,7 +22391,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
@@ -13699,7 +22413,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
@@ -13721,7 +22435,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
@@ -13743,7 +22457,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
@@ -13765,7 +22479,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
@@ -13823,7 +22537,7 @@ CONTENTFORMAT_BEGIN
  62
      0
 340
-1AD
+5DC
 144
 0.18
 309
@@ -13865,7 +22579,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
@@ -13887,7 +22601,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
@@ -13909,7 +22623,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
@@ -13931,7 +22645,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
@@ -13953,7 +22667,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
@@ -13975,7 +22689,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
@@ -14033,7 +22747,7 @@ CONTENTFORMAT_BEGIN
  62
      0
 340
-1AD
+5DC
 144
 0.18
 309
@@ -14075,7 +22789,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
@@ -14097,7 +22811,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
@@ -14119,7 +22833,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
@@ -14141,7 +22855,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
@@ -14163,7 +22877,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
@@ -14185,7 +22899,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-1AF
+5DE
  93
         0
  40
